@@ -1,0 +1,221 @@
+Prelabel Kombinasyonu: Location + Frequency of Purchases
+Silhouette Skoru: 0.2051 (Baseline'dan iyileştirme: 0.0137)
+
+Küme İstatistikleri:
+                                             Age        ... Review Rating Previous Purchases
+                                            mean count  ...          mean               mean
+Cluster_Location + Frequency of Purchases               ...                                 
+0                                          31.29   421  ...          4.31              12.25
+1                                          58.53   416  ...          3.26              40.74
+2                                          51.38   381  ...          4.42              12.44
+3                                          30.89   383  ...          3.03              36.54
+4                                          50.61   427  ...          3.10              13.42
+5                                          28.75   385  ...          3.27              13.70
+6                                          60.13   391  ...          4.37              28.37
+7                                          57.37   335  ...          3.15              19.76
+8                                          32.93   305  ...          4.23              38.96
+9                                          38.34   456  ...          4.33              38.22
+
+[10 rows x 7 columns]
+
+Küme İçerikleri:
+
+Küme 0:
+Location için en sık değerler:
+Location
+Texas           15
+California      15
+Idaho           14
+Minnesota       14
+North Dakota    14
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Fortnightly       71
+Every 3 Months    71
+Monthly           63
+Annually          59
+Bi-Weekly         57
+Name: count, dtype: int64
+
+
+Küme 1:
+Location için en sık değerler:
+Location
+Tennessee      14
+Minnesota      13
+Indiana        12
+Hawaii         12
+Connecticut    12
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Quarterly         81
+Weekly            70
+Every 3 Months    57
+Monthly           55
+Annually          53
+Name: count, dtype: int64
+
+
+Küme 2:
+Location için en sık değerler:
+Location
+Montana       14
+New York      13
+California    12
+Maryland      11
+Alabama       11
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Annually          68
+Monthly           65
+Quarterly         54
+Every 3 Months    51
+Bi-Weekly         51
+Name: count, dtype: int64
+
+
+Küme 3:
+Location için en sık değerler:
+Location
+New Mexico       13
+New Hampshire    13
+Illinois         13
+Minnesota        12
+Delaware         12
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Annually          63
+Quarterly         62
+Monthly           59
+Every 3 Months    56
+Fortnightly       53
+Name: count, dtype: int64
+
+
+Küme 4:
+Location için en sık değerler:
+Location
+Maryland       17
+Connecticut    15
+Montana        13
+Nebraska       12
+Colorado       12
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Annually          66
+Every 3 Months    64
+Fortnightly       63
+Bi-Weekly         60
+Weekly            59
+Name: count, dtype: int64
+
+
+Küme 5:
+Location için en sık değerler:
+Location
+North Dakota     15
+Oklahoma         14
+Maine            13
+West Virginia    12
+Idaho            12
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Bi-Weekly         64
+Every 3 Months    58
+Fortnightly       57
+Annually          56
+Weekly            55
+Name: count, dtype: int64
+
+
+Küme 6:
+Location için en sık değerler:
+Location
+Missouri      14
+Louisiana     14
+Wisconsin     13
+Minnesota     12
+New Jersey    12
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Annually          61
+Every 3 Months    61
+Fortnightly       60
+Weekly            59
+Quarterly         54
+Name: count, dtype: int64
+
+
+Küme 7:
+Location için en sık değerler:
+Location
+West Virginia    12
+Virginia         11
+Massachusetts    10
+Rhode Island     10
+Arkansas         10
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Bi-Weekly         59
+Quarterly         52
+Every 3 Months    50
+Annually          48
+Fortnightly       46
+Name: count, dtype: int64
+
+
+Küme 8:
+Location için en sık değerler:
+Location
+Alabama     12
+Kentucky    12
+Montana     10
+Wyoming      9
+Vermont      9
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Weekly            55
+Bi-Weekly         46
+Monthly           45
+Every 3 Months    41
+Fortnightly       41
+Name: count, dtype: int64
+
+
+Küme 9:
+Location için en sık değerler:
+Location
+Pennsylvania    16
+Mississippi     14
+Michigan        14
+Alaska          13
+Illinois        13
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Every 3 Months    75
+Quarterly         66
+Bi-Weekly         65
+Weekly            64
+Monthly           64
+Name: count, dtype: int64
+

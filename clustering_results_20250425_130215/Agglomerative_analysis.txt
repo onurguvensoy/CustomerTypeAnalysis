@@ -1,0 +1,114 @@
+Cluster Analysis for Agglomerative:
+               Age       Purchase Amount (USD)          Review Rating Previous Purchases  Category Frequency of Purchases
+              mean count                  mean min  max          mean               mean  <lambda>               <lambda>
+Agg_Cluster                                                                                                              
+0            40.25  1304                 77.97  35  100          4.00              20.05  Clothing         Every 3 Months
+1            58.11  1036                 58.08  20  100          3.76              36.74  Clothing              Quarterly
+2            41.36  1034                 38.17  20   80          3.75              15.57  Clothing         Every 3 Months
+3            31.20   526                 60.41  20  100          3.10              35.28  Clothing            Fortnightly
+
+Demographic Insights:
+
+Cluster 0:
+Age Statistics:
+count    1304.000000
+mean       40.250000
+std        13.577398
+min        18.000000
+25%        29.000000
+50%        40.000000
+75%        51.000000
+max        70.000000
+Name: Age, dtype: float64
+
+Top Categories:
+Category
+Clothing       593
+Accessories    408
+Footwear       200
+Name: count, dtype: int64
+
+Purchase Frequency:
+Frequency of Purchases
+Every 3 Months    209
+Annually          202
+Monthly           195
+Name: count, dtype: int64
+
+Cluster 1:
+Age Statistics:
+count    1036.000000
+mean       58.111004
+std         8.201110
+min        27.000000
+25%        52.000000
+50%        59.000000
+75%        65.000000
+max        70.000000
+Name: Age, dtype: float64
+
+Top Categories:
+Category
+Clothing       455
+Accessories    331
+Footwear       165
+Name: count, dtype: int64
+
+Purchase Frequency:
+Frequency of Purchases
+Quarterly      172
+Weekly         153
+Fortnightly    148
+Name: count, dtype: int64
+
+Cluster 2:
+Age Statistics:
+count    1034.000000
+mean       41.362669
+std        15.250188
+min        18.000000
+25%        28.000000
+50%        40.000000
+75%        54.000000
+max        70.000000
+Name: Age, dtype: float64
+
+Top Categories:
+Category
+Clothing       456
+Accessories    321
+Footwear       158
+Name: count, dtype: int64
+
+Purchase Frequency:
+Frequency of Purchases
+Every 3 Months    157
+Weekly            155
+Fortnightly       153
+Name: count, dtype: int64
+
+Cluster 3:
+Age Statistics:
+count    526.000000
+mean      31.195817
+std        8.003669
+min       18.000000
+25%       24.250000
+50%       31.000000
+75%       38.000000
+max       49.000000
+Name: Age, dtype: float64
+
+Top Categories:
+Category
+Clothing       233
+Accessories    180
+Footwear        76
+Name: count, dtype: int64
+
+Purchase Frequency:
+Frequency of Purchases
+Fortnightly       82
+Quarterly         81
+Every 3 Months    78
+Name: count, dtype: int64

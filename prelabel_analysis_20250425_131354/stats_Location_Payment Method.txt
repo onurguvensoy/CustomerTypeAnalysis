@@ -1,0 +1,221 @@
+Prelabel Kombinasyonu: Location + Payment Method
+Silhouette Skoru: 0.2141 (Baseline'dan iyileştirme: 0.0227)
+
+Küme İstatistikleri:
+                                     Age       Purchase Amount (USD)  ...      Review Rating Previous Purchases
+                                    mean count                  mean  ...  max          mean               mean
+Cluster_Location + Payment Method                                     ...                                      
+0                                  59.63   361                 44.98  ...   88          4.48              31.00
+1                                  32.31   441                 42.14  ...   84          4.21              11.05
+2                                  56.29   334                 38.12  ...   62          3.25              38.11
+3                                  30.99   283                 37.94  ...   62          4.30              37.41
+4                                  29.96   394                 51.66  ...  100          3.04              34.69
+5                                  54.65   413                 80.78  ...  100          4.28              12.74
+6                                  57.27   411                 83.40  ...  100          3.32              35.77
+7                                  54.67   417                 42.95  ...   89          3.13              12.22
+8                                  32.15   417                 80.21  ...  100          3.20              12.68
+9                                  33.58   429                 82.60  ...  100          4.37              36.09
+
+[10 rows x 7 columns]
+
+Küme İçerikleri:
+
+Küme 0:
+Location için en sık değerler:
+Location
+Missouri      14
+New Jersey    12
+New York      12
+Wisconsin     11
+Maine         11
+Name: count, dtype: int64
+
+Payment Method için en sık değerler:
+Payment Method
+Cash             68
+Debit Card       61
+Bank Transfer    60
+Credit Card      59
+Venmo            57
+Name: count, dtype: int64
+
+
+Küme 1:
+Location için en sık değerler:
+Location
+Minnesota       18
+Texas           17
+California      15
+Idaho           14
+North Dakota    14
+Name: count, dtype: int64
+
+Payment Method için en sık değerler:
+Payment Method
+Bank Transfer    82
+PayPal           81
+Venmo            81
+Debit Card       74
+Credit Card      73
+Name: count, dtype: int64
+
+
+Küme 2:
+Location için en sık değerler:
+Location
+Maryland        14
+Minnesota       14
+California      12
+Indiana         11
+North Dakota    11
+Name: count, dtype: int64
+
+Payment Method için en sık değerler:
+Payment Method
+Credit Card      62
+Bank Transfer    59
+PayPal           59
+Venmo            54
+Cash             53
+Name: count, dtype: int64
+
+
+Küme 3:
+Location için en sık değerler:
+Location
+Montana        11
+Alabama        10
+Connecticut     9
+Florida         9
+Nebraska        9
+Name: count, dtype: int64
+
+Payment Method için en sık değerler:
+Payment Method
+Credit Card      57
+Venmo            47
+Bank Transfer    47
+Debit Card       44
+PayPal           44
+Name: count, dtype: int64
+
+
+Küme 4:
+Location için en sık değerler:
+Location
+Illinois      17
+Missouri      14
+Kentucky      13
+New Mexico    12
+Minnesota     12
+Name: count, dtype: int64
+
+Payment Method için en sık değerler:
+Payment Method
+Debit Card       96
+Cash             66
+Venmo            60
+Bank Transfer    58
+Credit Card      57
+Name: count, dtype: int64
+
+
+Küme 5:
+Location için en sık değerler:
+Location
+Montana       15
+New York      14
+California    13
+Illinois      12
+Nebraska      11
+Name: count, dtype: int64
+
+Payment Method için en sık değerler:
+Payment Method
+Credit Card    88
+Venmo          82
+Cash           76
+PayPal         62
+Debit Card     59
+Name: count, dtype: int64
+
+
+Küme 6:
+Location için en sık değerler:
+Location
+Nevada          13
+Arizona         13
+Hawaii          13
+Utah            13
+Pennsylvania    12
+Name: count, dtype: int64
+
+Payment Method için en sık değerler:
+Payment Method
+Venmo            88
+Bank Transfer    76
+Credit Card      72
+PayPal           66
+Cash             61
+Name: count, dtype: int64
+
+
+Küme 7:
+Location için en sık değerler:
+Location
+Maryland       14
+Connecticut    14
+Illinois       14
+Oregon         13
+Louisiana      13
+Name: count, dtype: int64
+
+Payment Method için en sık değerler:
+Payment Method
+Cash             83
+Debit Card       78
+Credit Card      75
+PayPal           70
+Bank Transfer    59
+Name: count, dtype: int64
+
+
+Küme 8:
+Location için en sık değerler:
+Location
+North Dakota     16
+West Virginia    15
+Nevada           14
+Idaho            14
+Oklahoma         13
+Name: count, dtype: int64
+
+Payment Method için en sık değerler:
+Payment Method
+Credit Card      83
+Cash             72
+Bank Transfer    70
+PayPal           70
+Venmo            67
+Name: count, dtype: int64
+
+
+Küme 9:
+Location için en sık değerler:
+Location
+Mississippi     15
+Michigan        14
+Pennsylvania    14
+Montana         12
+Alaska          12
+Name: count, dtype: int64
+
+Payment Method için en sık değerler:
+Payment Method
+Bank Transfer    75
+Cash             75
+PayPal           73
+Debit Card       71
+Credit Card      70
+Name: count, dtype: int64
+

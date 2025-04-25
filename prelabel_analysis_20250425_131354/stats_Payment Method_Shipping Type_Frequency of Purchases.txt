@@ -1,0 +1,311 @@
+Prelabel Kombinasyonu: Payment Method + Shipping Type + Frequency of Purchases
+Silhouette Skoru: 0.2146 (Baseline'dan iyileştirme: 0.0232)
+
+Küme İstatistikleri:
+                                                      Age        ... Review Rating Previous Purchases
+                                                     mean count  ...          mean               mean
+Cluster_Payment Method + Shipping Type + Freque...               ...                                 
+0                                                   29.59   411  ...          3.20              36.91
+1                                                   52.60   415  ...          4.35              14.30
+2                                                   49.80   390  ...          3.01              11.21
+3                                                   57.13   345  ...          3.20              36.24
+4                                                   29.30   449  ...          4.32              16.28
+5                                                   58.20   265  ...          4.26              13.54
+6                                                   30.51   421  ...          3.24              13.73
+7                                                   55.16   382  ...          4.45              39.88
+8                                                   30.79   392  ...          4.34              37.30
+9                                                   56.23   430  ...          3.23              33.39
+
+[10 rows x 7 columns]
+
+Küme İçerikleri:
+
+Küme 0:
+Payment Method için en sık değerler:
+Payment Method
+Debit Card     94
+Venmo          72
+Credit Card    63
+Cash           63
+PayPal         60
+Name: count, dtype: int64
+
+Shipping Type için en sık değerler:
+Shipping Type
+2-Day Shipping    75
+Free Shipping     71
+Next Day Air      70
+Store Pickup      69
+Standard          69
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Monthly           63
+Annually          62
+Quarterly         60
+Bi-Weekly         59
+Every 3 Months    59
+Name: count, dtype: int64
+
+
+Küme 1:
+Payment Method için en sık değerler:
+Payment Method
+Credit Card    91
+Cash           82
+Venmo          81
+Debit Card     59
+PayPal         54
+Name: count, dtype: int64
+
+Shipping Type için en sık değerler:
+Shipping Type
+Express          78
+Standard         75
+Free Shipping    72
+Store Pickup     71
+Next Day Air     60
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Annually          69
+Every 3 Months    66
+Monthly           62
+Quarterly         59
+Bi-Weekly         58
+Name: count, dtype: int64
+
+
+Küme 2:
+Payment Method için en sık değerler:
+Payment Method
+Credit Card    80
+Cash           72
+Debit Card     70
+PayPal         67
+Venmo          53
+Name: count, dtype: int64
+
+Shipping Type için en sık değerler:
+Shipping Type
+Next Day Air      76
+Store Pickup      74
+Free Shipping     69
+Standard          61
+2-Day Shipping    56
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Bi-Weekly         58
+Annually          58
+Every 3 Months    57
+Fortnightly       55
+Monthly           55
+Name: count, dtype: int64
+
+
+Küme 3:
+Payment Method için en sık değerler:
+Payment Method
+Credit Card      62
+Cash             59
+PayPal           59
+Bank Transfer    58
+Venmo            55
+Name: count, dtype: int64
+
+Shipping Type için en sık değerler:
+Shipping Type
+Standard         62
+Next Day Air     62
+Store Pickup     58
+Express          56
+Free Shipping    54
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Quarterly      64
+Annually       53
+Weekly         51
+Monthly        47
+Fortnightly    45
+Name: count, dtype: int64
+
+
+Küme 4:
+Payment Method için en sık değerler:
+Payment Method
+Bank Transfer    83
+Venmo            83
+PayPal           80
+Credit Card      75
+Debit Card       70
+Name: count, dtype: int64
+
+Shipping Type için en sık değerler:
+Shipping Type
+Standard         82
+Free Shipping    78
+Store Pickup     77
+Express          74
+Next Day Air     73
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Every 3 Months    75
+Fortnightly       70
+Annually          65
+Monthly           63
+Bi-Weekly         61
+Name: count, dtype: int64
+
+
+Küme 5:
+Payment Method için en sık değerler:
+Payment Method
+Debit Card       53
+Cash             47
+Bank Transfer    46
+PayPal           43
+Credit Card      41
+Name: count, dtype: int64
+
+Shipping Type için en sık değerler:
+Shipping Type
+Express           54
+Standard          50
+Store Pickup      43
+2-Day Shipping    42
+Next Day Air      42
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Annually          45
+Every 3 Months    42
+Fortnightly       40
+Weekly            38
+Monthly           37
+Name: count, dtype: int64
+
+
+Küme 6:
+Payment Method için en sık değerler:
+Payment Method
+Credit Card      83
+Cash             74
+Bank Transfer    68
+PayPal           67
+Debit Card       65
+Name: count, dtype: int64
+
+Shipping Type için en sık değerler:
+Shipping Type
+Free Shipping     87
+Next Day Air      84
+Express           69
+2-Day Shipping    67
+Store Pickup      62
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Bi-Weekly         70
+Every 3 Months    65
+Annually          62
+Weekly            62
+Fortnightly       60
+Name: count, dtype: int64
+
+
+Küme 7:
+Payment Method için en sık değerler:
+Payment Method
+Bank Transfer    79
+PayPal           66
+Cash             61
+Debit Card       60
+Credit Card      60
+Name: count, dtype: int64
+
+Shipping Type için en sık değerler:
+Shipping Type
+2-Day Shipping    74
+Standard          67
+Free Shipping     66
+Express           63
+Next Day Air      60
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Weekly            59
+Fortnightly       58
+Monthly           58
+Every 3 Months    57
+Quarterly         52
+Name: count, dtype: int64
+
+
+Küme 8:
+Payment Method için en sık değerler:
+Payment Method
+PayPal           73
+Cash             68
+Credit Card      66
+Bank Transfer    65
+Debit Card       61
+Name: count, dtype: int64
+
+Shipping Type için en sık değerler:
+Shipping Type
+2-Day Shipping    71
+Standard          69
+Store Pickup      67
+Next Day Air      62
+Express           62
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Quarterly         62
+Every 3 Months    60
+Annually          58
+Weekly            57
+Monthly           53
+Name: count, dtype: int64
+
+
+Küme 9:
+Payment Method için en sık değerler:
+Payment Method
+Venmo            95
+Bank Transfer    78
+Credit Card      75
+PayPal           69
+Cash             64
+Name: count, dtype: int64
+
+Shipping Type için en sık değerler:
+Shipping Type
+Free Shipping     83
+Express           79
+Store Pickup      77
+Standard          67
+2-Day Shipping    65
+Name: count, dtype: int64
+
+Frequency of Purchases için en sık değerler:
+Frequency of Purchases
+Quarterly         74
+Bi-Weekly         66
+Weekly            61
+Monthly           60
+Every 3 Months    59
+Name: count, dtype: int64
+

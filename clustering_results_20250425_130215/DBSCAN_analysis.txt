@@ -1,0 +1,164 @@
+Cluster Analysis for DBSCAN:
+                  Age       Purchase Amount (USD)          Review Rating Previous Purchases     Category Frequency of Purchases
+                 mean count                  mean min  max          mean               mean     <lambda>               <lambda>
+DBSCAN_Cluster                                                                                                                 
+-1              37.48    60                 62.85  20  100          3.25              28.23     Clothing              Quarterly
+ 0              44.13  3824                 59.70  20  100          3.76              25.34     Clothing         Every 3 Months
+ 1              38.50     4                 93.50  90   98          2.60              43.75  Accessories         Every 3 Months
+ 2              68.25     4                 21.50  21   23          2.78               5.00  Accessories         Every 3 Months
+ 3              38.33     3                 21.67  20   23          4.87              23.33     Clothing               Annually
+ 4              67.20     5                 96.20  94   98          4.94               5.60     Clothing              Quarterly
+
+Demographic Insights:
+
+Cluster -1:
+Age Statistics:
+count    60.000000
+mean     37.483333
+std      20.101009
+min      18.000000
+25%      19.000000
+50%      28.500000
+75%      57.500000
+max      70.000000
+Name: Age, dtype: float64
+
+Top Categories:
+Category
+Clothing       30
+Accessories    21
+Outerwear       5
+Name: count, dtype: int64
+
+Purchase Frequency:
+Frequency of Purchases
+Quarterly         12
+Every 3 Months     9
+Bi-Weekly          8
+Name: count, dtype: int64
+
+Cluster 0:
+Age Statistics:
+count    3824.000000
+mean       44.126569
+std        15.085186
+min        18.000000
+25%        31.000000
+50%        44.000000
+75%        57.000000
+max        70.000000
+Name: Age, dtype: float64
+
+Top Categories:
+Category
+Clothing       1697
+Accessories    1215
+Footwear        594
+Name: count, dtype: int64
+
+Purchase Frequency:
+Frequency of Purchases
+Every 3 Months    570
+Annually          561
+Quarterly         547
+Name: count, dtype: int64
+
+Cluster 1:
+Age Statistics:
+count     4.000000
+mean     38.500000
+std       2.380476
+min      37.000000
+25%      37.000000
+50%      37.500000
+75%      39.000000
+max      42.000000
+Name: Age, dtype: float64
+
+Top Categories:
+Category
+Outerwear      1
+Accessories    1
+Clothing       1
+Name: count, dtype: int64
+
+Purchase Frequency:
+Frequency of Purchases
+Every 3 Months    2
+Annually          1
+Bi-Weekly         1
+Name: count, dtype: int64
+
+Cluster 2:
+Age Statistics:
+count     4.000000
+mean     68.250000
+std       0.957427
+min      67.000000
+25%      67.750000
+50%      68.500000
+75%      69.000000
+max      69.000000
+Name: Age, dtype: float64
+
+Top Categories:
+Category
+Clothing       2
+Accessories    2
+Name: count, dtype: int64
+
+Purchase Frequency:
+Frequency of Purchases
+Every 3 Months    2
+Annually          1
+Monthly           1
+Name: count, dtype: int64
+
+Cluster 3:
+Age Statistics:
+count     3.000000
+mean     38.333333
+std       2.309401
+min      37.000000
+25%      37.000000
+50%      37.000000
+75%      39.000000
+max      41.000000
+Name: Age, dtype: float64
+
+Top Categories:
+Category
+Clothing    3
+Name: count, dtype: int64
+
+Purchase Frequency:
+Frequency of Purchases
+Annually          1
+Quarterly         1
+Every 3 Months    1
+Name: count, dtype: int64
+
+Cluster 4:
+Age Statistics:
+count     5.000000
+mean     67.200000
+std       2.774887
+min      63.000000
+25%      66.000000
+50%      68.000000
+75%      69.000000
+max      70.000000
+Name: Age, dtype: float64
+
+Top Categories:
+Category
+Clothing       4
+Accessories    1
+Name: count, dtype: int64
+
+Purchase Frequency:
+Frequency of Purchases
+Quarterly    3
+Weekly       1
+Bi-Weekly    1
+Name: count, dtype: int64

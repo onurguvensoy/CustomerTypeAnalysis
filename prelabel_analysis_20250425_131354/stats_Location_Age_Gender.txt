@@ -1,0 +1,281 @@
+Prelabel Kombinasyonu: Location + Age + Gender
+Silhouette Skoru: 0.2199 (Baseline'dan iyileştirme: 0.0285)
+
+Küme İstatistikleri:
+                                   Age       Purchase Amount (USD)  ...      Review Rating Previous Purchases
+                                  mean count                  mean  ...  max          mean               mean
+Cluster_Location + Age + Gender                                     ...                                      
+0                                54.96   396                 78.87  ...  100          3.05              35.06
+1                                31.55   318                 80.41  ...  100          4.41              14.25
+2                                55.87   409                 38.87  ...   77          3.08              15.78
+3                                29.97   370                 73.55  ...  100          4.24              40.12
+4                                57.60   298                 81.23  ...  100          4.38              37.38
+5                                32.70   405                 76.18  ...  100          3.05              13.48
+6                                58.71   391                 72.05  ...  100          4.14              11.23
+7                                32.77   440                 42.72  ...   84          3.13              36.72
+8                                56.25   426                 35.93  ...   60          4.14              36.55
+9                                32.17   447                 35.43  ...   59          4.20              14.41
+
+[10 rows x 7 columns]
+
+Küme İçerikleri:
+
+Küme 0:
+Location için en sık değerler:
+Location
+Hawaii          13
+Pennsylvania    13
+Missouri        12
+Nevada          12
+Tennessee       12
+Name: count, dtype: int64
+
+Age için en sık değerler:
+Age
+57    23
+58    18
+59    18
+52    17
+55    17
+Name: count, dtype: int64
+
+Gender için en sık değerler:
+Gender
+Male      275
+Female    121
+Name: count, dtype: int64
+
+
+Küme 1:
+Location için en sık değerler:
+Location
+West Virginia    13
+Texas            11
+Massachusetts    10
+Virginia         10
+Vermont          10
+Name: count, dtype: int64
+
+Age için en sık değerler:
+Age
+43    18
+31    16
+21    16
+18    16
+39    16
+Name: count, dtype: int64
+
+Gender için en sık değerler:
+Gender
+Male      228
+Female     90
+Name: count, dtype: int64
+
+
+Küme 2:
+Location için en sık değerler:
+Location
+Maryland          17
+Connecticut       15
+Louisiana         13
+Georgia           12
+South Carolina    12
+Name: count, dtype: int64
+
+Age için en sık değerler:
+Age
+63    22
+50    20
+66    19
+59    19
+70    18
+Name: count, dtype: int64
+
+Gender için en sık değerler:
+Gender
+Male      271
+Female    138
+Name: count, dtype: int64
+
+
+Küme 3:
+Location için en sık değerler:
+Location
+Pennsylvania    13
+Arizona         12
+Mississippi     12
+Alaska          12
+Michigan        12
+Name: count, dtype: int64
+
+Age için en sık değerler:
+Age
+25    23
+26    21
+19    18
+24    18
+30    18
+Name: count, dtype: int64
+
+Gender için en sık değerler:
+Gender
+Male      243
+Female    127
+Name: count, dtype: int64
+
+
+Küme 4:
+Location için en sık değerler:
+Location
+Nebraska    11
+Indiana     10
+Nevada      10
+Montana     10
+Maryland     9
+Name: count, dtype: int64
+
+Age için en sık değerler:
+Age
+69    21
+50    16
+51    15
+68    15
+56    14
+Name: count, dtype: int64
+
+Gender için en sık değerler:
+Gender
+Male      209
+Female     89
+Name: count, dtype: int64
+
+
+Küme 5:
+Location için en sık değerler:
+Location
+North Dakota    16
+Idaho           15
+Maine           13
+Alaska          11
+Wisconsin       11
+Name: count, dtype: int64
+
+Age için en sık değerler:
+Age
+35    19
+32    19
+29    18
+19    17
+28    17
+Name: count, dtype: int64
+
+Gender için en sık değerler:
+Gender
+Male      264
+Female    141
+Name: count, dtype: int64
+
+
+Küme 6:
+Location için en sık değerler:
+Location
+Rhode Island    14
+Louisiana       14
+Montana         14
+Mississippi     12
+Indiana         11
+Name: count, dtype: int64
+
+Age için en sık değerler:
+Age
+69    24
+54    23
+62    22
+65    21
+58    19
+Name: count, dtype: int64
+
+Gender için en sık değerler:
+Gender
+Male      255
+Female    136
+Name: count, dtype: int64
+
+
+Küme 7:
+Location için en sık değerler:
+Location
+Missouri         17
+Delaware         14
+Illinois         14
+West Virginia    13
+New Mexico       12
+Name: count, dtype: int64
+
+Age için en sık değerler:
+Age
+27    23
+37    19
+32    18
+35    18
+23    18
+Name: count, dtype: int64
+
+Gender için en sık değerler:
+Gender
+Male      319
+Female    121
+Name: count, dtype: int64
+
+
+Küme 8:
+Location için en sık değerler:
+Location
+Wisconsin    13
+Maryland     13
+Arkansas     12
+New York     12
+Alabama      12
+Name: count, dtype: int64
+
+Age için en sık değerler:
+Age
+62    23
+58    22
+57    20
+69    19
+52    19
+Name: count, dtype: int64
+
+Gender için en sık değerler:
+Gender
+Male      296
+Female    130
+Name: count, dtype: int64
+
+
+Küme 9:
+Location için en sık değerler:
+Location
+California      16
+Nebraska        15
+Texas           15
+North Dakota    15
+Minnesota       15
+Name: count, dtype: int64
+
+Age için en sık değerler:
+Age
+20    25
+27    24
+23    19
+31    18
+19    18
+Name: count, dtype: int64
+
+Gender için en sık değerler:
+Gender
+Male      292
+Female    155
+Name: count, dtype: int64
+

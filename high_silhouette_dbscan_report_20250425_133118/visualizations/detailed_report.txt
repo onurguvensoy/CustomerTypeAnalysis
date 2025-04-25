@@ -1,0 +1,120 @@
+=== DBSCAN Clustering Results Analysis ===
+
+Total valid clusters: 46
+Total customers in clusters: 265
+
+=== Top 10 Largest Clusters ===
+
+Cluster 12 (Size: 11):
+  Average Age: 47.6
+  Average Purchase: $28.36
+  Average Rating: 2.81/5.0
+  Average Previous Purchases: 14.5
+
+Cluster 27 (Size: 9):
+  Average Age: 58.9
+  Average Purchase: $40.44
+  Average Rating: 4.22/5.0
+  Average Previous Purchases: 14.6
+
+Cluster 30 (Size: 8):
+  Average Age: 60.1
+  Average Purchase: $84.12
+  Average Rating: 2.92/5.0
+  Average Previous Purchases: 31.6
+
+Cluster 5 (Size: 8):
+  Average Age: 22.2
+  Average Purchase: $54.50
+  Average Rating: 4.65/5.0
+  Average Previous Purchases: 43.9
+
+Cluster 26 (Size: 7):
+  Average Age: 54.0
+  Average Purchase: $27.00
+  Average Rating: 3.71/5.0
+  Average Previous Purchases: 28.6
+
+Cluster 3 (Size: 7):
+  Average Age: 54.3
+  Average Purchase: $96.29
+  Average Rating: 3.29/5.0
+  Average Previous Purchases: 43.6
+
+Cluster 23 (Size: 7):
+  Average Age: 67.9
+  Average Purchase: $79.43
+  Average Rating: 4.11/5.0
+  Average Previous Purchases: 46.6
+
+Cluster 9 (Size: 7):
+  Average Age: 32.0
+  Average Purchase: $34.57
+  Average Rating: 3.54/5.0
+  Average Previous Purchases: 47.1
+
+Cluster 24 (Size: 7):
+  Average Age: 56.3
+  Average Purchase: $22.43
+  Average Rating: 4.24/5.0
+  Average Previous Purchases: 4.0
+
+Cluster 1 (Size: 7):
+  Average Age: 37.9
+  Average Purchase: $84.00
+  Average Rating: 3.27/5.0
+  Average Previous Purchases: 4.1
+
+=== Customer Segment Profiles ===
+
+Young Customers (Age < 30):
+  Cluster 5: Age 22.2, Purchase $54.50, Rating 4.65, Previous Purchases 43.9
+  Cluster 6: Age 29.0, Purchase $21.40, Rating 3.68, Previous Purchases 31.0
+  Cluster 8: Age 24.7, Purchase $75.00, Rating 4.10, Previous Purchases 34.0
+  Cluster 11: Age 25.0, Purchase $29.00, Rating 4.92, Previous Purchases 12.0
+  Cluster 20: Age 29.4, Purchase $69.20, Rating 4.54, Previous Purchases 17.0
+  Cluster 22: Age 22.2, Purchase $33.20, Rating 4.48, Previous Purchases 29.4
+  Cluster 42: Age 27.4, Purchase $87.40, Rating 3.18, Previous Purchases 14.4
+  Cluster 44: Age 28.8, Purchase $85.50, Rating 4.28, Previous Purchases 45.5
+  Cluster 45: Age 22.4, Purchase $64.60, Rating 3.28, Previous Purchases 30.0
+
+Middle-Aged Customers (30-49):
+  Cluster 0: Age 49.3, Purchase $28.67, Rating 3.65, Previous Purchases 39.3
+  Cluster 1: Age 37.9, Purchase $84.00, Rating 3.27, Previous Purchases 4.1
+  Cluster 4: Age 41.0, Purchase $66.83, Rating 2.68, Previous Purchases 45.8
+  Cluster 9: Age 32.0, Purchase $34.57, Rating 3.54, Previous Purchases 47.1
+  Cluster 12: Age 47.6, Purchase $28.36, Rating 2.81, Previous Purchases 14.5
+  Cluster 13: Age 45.6, Purchase $67.60, Rating 4.40, Previous Purchases 4.6
+  Cluster 15: Age 31.4, Purchase $80.00, Rating 4.78, Previous Purchases 44.8
+  Cluster 17: Age 44.4, Purchase $51.40, Rating 2.62, Previous Purchases 39.2
+  Cluster 19: Age 38.2, Purchase $90.00, Rating 4.00, Previous Purchases 48.0
+  Cluster 21: Age 36.4, Purchase $56.40, Rating 2.70, Previous Purchases 12.0
+  Cluster 25: Age 33.8, Purchase $94.00, Rating 3.94, Previous Purchases 40.6
+  Cluster 28: Age 45.7, Purchase $77.43, Rating 3.91, Previous Purchases 27.1
+  Cluster 32: Age 38.6, Purchase $82.20, Rating 3.70, Previous Purchases 20.2
+  Cluster 33: Age 49.6, Purchase $79.60, Rating 2.80, Previous Purchases 6.2
+  Cluster 35: Age 42.8, Purchase $26.20, Rating 4.62, Previous Purchases 7.2
+  Cluster 36: Age 35.6, Purchase $25.00, Rating 4.02, Previous Purchases 11.6
+  Cluster 37: Age 49.8, Purchase $45.40, Rating 4.18, Previous Purchases 30.4
+  Cluster 41: Age 43.2, Purchase $72.60, Rating 4.54, Previous Purchases 33.8
+
+Senior Customers (Age 50+):
+  Cluster 2: Age 52.6, Purchase $25.80, Rating 2.68, Previous Purchases 45.6
+  Cluster 3: Age 54.3, Purchase $96.29, Rating 3.29, Previous Purchases 43.6
+  Cluster 7: Age 50.8, Purchase $52.80, Rating 4.92, Previous Purchases 20.2
+  Cluster 10: Age 68.0, Purchase $63.80, Rating 4.00, Previous Purchases 43.6
+  Cluster 14: Age 50.8, Purchase $89.40, Rating 4.38, Previous Purchases 25.8
+  Cluster 16: Age 55.2, Purchase $36.60, Rating 3.98, Previous Purchases 43.4
+  Cluster 18: Age 52.0, Purchase $40.60, Rating 2.82, Previous Purchases 36.8
+  Cluster 23: Age 67.9, Purchase $79.43, Rating 4.11, Previous Purchases 46.6
+  Cluster 24: Age 56.3, Purchase $22.43, Rating 4.24, Previous Purchases 4.0
+  Cluster 26: Age 54.0, Purchase $27.00, Rating 3.71, Previous Purchases 28.6
+  Cluster 27: Age 58.9, Purchase $40.44, Rating 4.22, Previous Purchases 14.6
+  Cluster 29: Age 66.5, Purchase $24.00, Rating 2.68, Previous Purchases 14.3
+  Cluster 30: Age 60.1, Purchase $84.12, Rating 2.92, Previous Purchases 31.6
+  Cluster 31: Age 53.0, Purchase $90.50, Rating 3.77, Previous Purchases 36.5
+  Cluster 34: Age 59.6, Purchase $48.80, Rating 3.14, Previous Purchases 10.6
+  Cluster 38: Age 50.2, Purchase $56.80, Rating 3.54, Previous Purchases 14.0
+  Cluster 39: Age 62.2, Purchase $67.40, Rating 4.66, Previous Purchases 41.6
+  Cluster 40: Age 50.3, Purchase $77.33, Rating 4.53, Previous Purchases 7.0
+  Cluster 43: Age 62.8, Purchase $40.80, Rating 3.50, Previous Purchases 4.8

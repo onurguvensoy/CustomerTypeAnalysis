@@ -1,0 +1,209 @@
+Prelabel Kombinasyonu: Location + Season
+Silhouette Skoru: 0.2126 (Baseline'dan iyileştirme: 0.0212)
+
+Küme İstatistikleri:
+                             Age       Purchase Amount (USD)          Review Rating Previous Purchases
+                            mean count                  mean min  max          mean               mean
+Cluster_Location + Season                                                                             
+0                          59.80   398                 47.03  20   93          3.05              18.62
+1                          33.51   447                 83.24  60  100          3.26              13.84
+2                          54.74   429                 82.11  57  100          4.36              16.47
+3                          55.85   431                 40.54  20   77          4.18              38.88
+4                          28.18   409                 45.46  20   97          4.44              17.78
+5                          56.89   388                 82.39  44  100          3.29              38.02
+6                          55.15   251                 37.25  20   63          4.31              11.72
+7                          33.37   307                 39.87  20   64          3.14              12.47
+8                          33.74   436                 45.80  20   86          3.17              39.07
+9                          32.53   404                 80.07  41  100          4.34              38.67
+
+Küme İçerikleri:
+
+Küme 0:
+Location için en sık değerler:
+Location
+South Carolina    14
+Ohio              14
+Connecticut       14
+Louisiana         13
+Illinois          12
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Spring    110
+Fall      107
+Summer     96
+Winter     85
+Name: count, dtype: int64
+
+
+Küme 1:
+Location için en sık değerler:
+Location
+West Virginia    17
+Nevada           16
+North Dakota     16
+Idaho            15
+Maine            14
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Fall      128
+Winter    109
+Summer    107
+Spring    103
+Name: count, dtype: int64
+
+
+Küme 2:
+Location için en sık değerler:
+Location
+Montana           16
+Illinois          13
+Idaho             12
+Nebraska          12
+South Carolina    12
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Fall      116
+Winter    111
+Spring    111
+Summer     91
+Name: count, dtype: int64
+
+
+Küme 3:
+Location için en sık değerler:
+Location
+New York      16
+Missouri      13
+California    13
+Maine         13
+Maryland      13
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Winter    114
+Summer    114
+Spring    106
+Fall       97
+Name: count, dtype: int64
+
+
+Küme 4:
+Location için en sık değerler:
+Location
+Texas         16
+California    15
+Nebraska      14
+Vermont       13
+Louisiana     13
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Spring    113
+Summer    109
+Fall       96
+Winter     91
+Name: count, dtype: int64
+
+
+Küme 5:
+Location için en sık değerler:
+Location
+Tennessee       15
+Arizona         13
+Pennsylvania    12
+Utah            12
+Nevada          12
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Summer    102
+Spring     98
+Fall       94
+Winter     94
+Name: count, dtype: int64
+
+
+Küme 6:
+Location için en sık değerler:
+Location
+Wisconsin       14
+Idaho           11
+Maryland         9
+Connecticut      8
+Rhode Island     8
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Spring    79
+Winter    59
+Summer    58
+Fall      55
+Name: count, dtype: int64
+
+
+Küme 7:
+Location için en sık değerler:
+Location
+Montana     12
+Virginia    10
+Colorado    10
+New York    10
+Vermont     10
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Summer    78
+Winter    78
+Fall      76
+Spring    75
+Name: count, dtype: int64
+
+
+Küme 8:
+Location için en sık değerler:
+Location
+Missouri      19
+New Mexico    14
+Vermont       13
+Alabama       12
+Illinois      12
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Winter    127
+Fall      107
+Summer    103
+Spring     99
+Name: count, dtype: int64
+
+
+Küme 9:
+Location için en sık değerler:
+Location
+Mississippi     14
+Pennsylvania    14
+Michigan        12
+Arizona         12
+Illinois        12
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Spring    105
+Winter    103
+Fall       99
+Summer     97
+Name: count, dtype: int64
+

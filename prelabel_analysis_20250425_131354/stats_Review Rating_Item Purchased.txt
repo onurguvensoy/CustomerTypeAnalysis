@@ -1,0 +1,221 @@
+Prelabel Kombinasyonu: Review Rating + Item Purchased
+Silhouette Skoru: 0.2108 (Baseline'dan iyileştirme: 0.0194)
+
+Küme İstatistikleri:
+                                          Age        ... Review Rating Previous Purchases
+                                         mean count  ...          mean               mean
+Cluster_Review Rating + Item Purchased               ...                                 
+0                                       29.81   434  ...          3.23              35.58
+1                                       58.19   411  ...          4.24              14.54
+2                                       57.25   313  ...          3.14              36.99
+3                                       55.90   402  ...          4.43              35.27
+4                                       33.20   419  ...          3.05              14.63
+5                                       30.35   298  ...          4.39              14.15
+6                                       54.97   407  ...          3.21              11.76
+7                                       56.39   401  ...          3.31              36.53
+8                                       31.81   422  ...          4.25              14.25
+9                                       33.73   393  ...          4.33              40.47
+
+[10 rows x 7 columns]
+
+Küme İçerikleri:
+
+Küme 0:
+Review Rating için en sık değerler:
+Review Rating
+3.4    41
+3.0    40
+2.9    39
+3.1    36
+2.7    35
+Name: count, dtype: int64
+
+Item Purchased için en sık değerler:
+Item Purchased
+Shorts    25
+Dress     23
+Hoodie    22
+Jacket    22
+Shirt     22
+Name: count, dtype: int64
+
+
+Küme 1:
+Review Rating için en sık değerler:
+Review Rating
+4.9    38
+4.3    32
+4.0    32
+4.7    30
+4.4    30
+Name: count, dtype: int64
+
+Item Purchased için en sık değerler:
+Item Purchased
+Jacket     23
+Sandals    22
+Dress      22
+T-shirt    22
+Handbag    21
+Name: count, dtype: int64
+
+
+Küme 2:
+Review Rating için en sık değerler:
+Review Rating
+2.9    30
+2.6    30
+3.5    27
+3.2    26
+3.7    26
+Name: count, dtype: int64
+
+Item Purchased için en sık değerler:
+Item Purchased
+Handbag       17
+Coat          17
+Jewelry       17
+Sunglasses    16
+Dress         16
+Name: count, dtype: int64
+
+
+Küme 3:
+Review Rating için en sık değerler:
+Review Rating
+4.6    45
+4.7    40
+4.4    40
+4.5    36
+4.8    36
+Name: count, dtype: int64
+
+Item Purchased için en sık değerler:
+Item Purchased
+Jewelry    25
+Gloves     25
+Coat       23
+Sweater    22
+Blouse     21
+Name: count, dtype: int64
+
+
+Küme 4:
+Review Rating için en sık değerler:
+Review Rating
+3.0    46
+3.2    43
+2.7    42
+2.9    39
+2.6    38
+Name: count, dtype: int64
+
+Item Purchased için en sık değerler:
+Item Purchased
+Backpack      23
+Shirt         23
+Belt          22
+Sunglasses    22
+Blouse        21
+Name: count, dtype: int64
+
+
+Küme 5:
+Review Rating için en sık değerler:
+Review Rating
+4.4    32
+4.9    31
+4.2    29
+4.8    27
+4.6    25
+Name: count, dtype: int64
+
+Item Purchased için en sık değerler:
+Item Purchased
+Blouse     16
+Sweater    16
+Boots      15
+Hat        15
+Sandals    15
+Name: count, dtype: int64
+
+
+Küme 6:
+Review Rating için en sık değerler:
+Review Rating
+2.6    41
+2.8    35
+2.9    35
+3.4    34
+2.7    30
+Name: count, dtype: int64
+
+Item Purchased için en sık değerler:
+Item Purchased
+Hoodie     24
+Blouse     21
+Shirt      21
+Skirt      20
+Handbag    20
+Name: count, dtype: int64
+
+
+Küme 7:
+Review Rating için en sık değerler:
+Review Rating
+3.3    30
+2.6    29
+3.1    28
+3.0    27
+3.2    27
+Name: count, dtype: int64
+
+Item Purchased için en sık değerler:
+Item Purchased
+Pants      23
+Jewelry    21
+Scarf      20
+Socks      20
+Dress      20
+Name: count, dtype: int64
+
+
+Küme 8:
+Review Rating için en sık değerler:
+Review Rating
+4.6    38
+4.0    37
+4.2    32
+4.3    32
+4.7    29
+Name: count, dtype: int64
+
+Item Purchased için en sık değerler:
+Item Purchased
+Belt        25
+Socks       22
+Skirt       21
+Pants       21
+Backpack    20
+Name: count, dtype: int64
+
+
+Küme 9:
+Review Rating için en sık değerler:
+Review Rating
+4.6    38
+4.9    35
+4.2    33
+4.8    32
+4.7    30
+Name: count, dtype: int64
+
+Item Purchased için en sık değerler:
+Item Purchased
+Shirt     21
+Blouse    20
+Dress     20
+Belt      20
+Boots     20
+Name: count, dtype: int64
+

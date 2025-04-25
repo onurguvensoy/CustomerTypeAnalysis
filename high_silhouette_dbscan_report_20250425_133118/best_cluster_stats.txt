@@ -1,0 +1,2451 @@
+En İyi Kümeleme Konfigürasyonu: DBSCAN_StandardScaler_Age+Purchase Amount (USD)+Review Rating+Previous Purchases_eps0.3_ms5
+Silhouette Skoru: 0.6548
+
+Küme İstatistikleri:
+               Age       Purchase Amount (USD)         Review Rating Previous Purchases
+              mean count                  mean min max          mean               mean
+BestCluster                                                                            
+0            49.33     6                 28.67  25  33          3.65              39.33
+1            37.86     7                 84.00  80  89          3.27               4.14
+2            52.60     5                 25.80  25  27          2.68              45.60
+3            54.29     7                 96.29  94  99          3.29              43.57
+4            41.00     6                 66.83  63  72          2.68              45.83
+5            22.25     8                 54.50  52  59          4.65              43.88
+6            29.00     5                 21.40  20  23          3.68              31.00
+7            50.80     5                 52.80  50  55          4.92              20.20
+8            24.71     7                 75.00  73  78          4.10              34.00
+9            32.00     7                 34.57  32  37          3.54              47.14
+10           68.00     5                 63.80  59  67          4.00              43.60
+11           25.00     5                 29.00  27  31          4.92              12.00
+12           47.64    11                 28.36  20  36          2.81              14.55
+13           45.60     5                 67.60  63  71          4.40               4.60
+14           50.80     5                 89.40  85  94          4.38              25.80
+15           31.40     5                 80.00  77  83          4.78              44.80
+16           55.20     5                 36.60  30  40          3.98              43.40
+17           44.40     5                 51.40  49  55          2.62              39.20
+18           52.00     5                 40.60  36  45          2.82              36.80
+19           38.20     5                 90.00  87  94          4.00              48.00
+20           29.40     5                 69.20  66  72          4.54              17.00
+21           36.40     5                 56.40  53  59          2.70              12.00
+22           22.20     5                 33.20  27  39          4.48              29.40
+23           67.86     7                 79.43  75  82          4.11              46.57
+24           56.29     7                 22.43  20  25          4.24               4.00
+25           33.80     5                 94.00  92  96          3.94              40.60
+26           54.00     7                 27.00  22  33          3.71              28.57
+27           58.89     9                 40.44  36  48          4.22              14.56
+28           45.71     7                 77.43  74  79          3.91              27.14
+29           66.50     6                 24.00  20  29          2.68              14.33
+30           60.12     8                 84.12  80  89          2.92              31.62
+31           53.00     6                 90.50  85  94          3.77              36.50
+32           38.60     5                 82.20  80  84          3.70              20.20
+33           49.60     5                 79.60  75  84          2.80               6.20
+34           59.60     5                 48.80  46  52          3.14              10.60
+35           42.80     5                 26.20  23  29          4.62               7.20
+36           35.60     5                 25.00  22  27          4.02              11.60
+37           49.80     5                 45.40  43  47          4.18              30.40
+38           50.20     5                 56.80  54  60          3.54              14.00
+39           62.20     5                 67.40  63  69          4.66              41.60
+40           50.33     3                 77.33  75  81          4.53               7.00
+41           43.20     5                 72.60  68  75          4.54              33.80
+42           27.40     5                 87.40  85  89          3.18              14.40
+43           62.80     5                 40.80  37  45          3.50               4.80
+44           28.83     6                 85.50  83  87          4.28              45.50
+45           22.40     5                 64.60  61  69          3.28              30.00
+
+Kategorik Değişken Dağılımları:
+
+Gender Dağılımı:
+
+Küme 0:
+Gender
+Male      4
+Female    2
+Name: count, dtype: int64
+
+Küme 1:
+Gender
+Male    7
+Name: count, dtype: int64
+
+Küme 2:
+Gender
+Male      3
+Female    2
+Name: count, dtype: int64
+
+Küme 3:
+Gender
+Female    4
+Male      3
+Name: count, dtype: int64
+
+Küme 4:
+Gender
+Male      4
+Female    2
+Name: count, dtype: int64
+
+Küme 5:
+Gender
+Male      6
+Female    2
+Name: count, dtype: int64
+
+Küme 6:
+Gender
+Male    5
+Name: count, dtype: int64
+
+Küme 7:
+Gender
+Male      3
+Female    2
+Name: count, dtype: int64
+
+Küme 8:
+Gender
+Male      5
+Female    2
+Name: count, dtype: int64
+
+Küme 9:
+Gender
+Male      5
+Female    2
+Name: count, dtype: int64
+
+Küme 10:
+Gender
+Male      4
+Female    1
+Name: count, dtype: int64
+
+Küme 11:
+Gender
+Male      4
+Female    1
+Name: count, dtype: int64
+
+Küme 12:
+Gender
+Male      6
+Female    5
+Name: count, dtype: int64
+
+Küme 13:
+Gender
+Male      3
+Female    2
+Name: count, dtype: int64
+
+Küme 14:
+Gender
+Male    5
+Name: count, dtype: int64
+
+Küme 15:
+Gender
+Male      3
+Female    2
+Name: count, dtype: int64
+
+Küme 16:
+Gender
+Female    3
+Male      2
+Name: count, dtype: int64
+
+Küme 17:
+Gender
+Male      4
+Female    1
+Name: count, dtype: int64
+
+Küme 18:
+Gender
+Male      4
+Female    1
+Name: count, dtype: int64
+
+Küme 19:
+Gender
+Male      4
+Female    1
+Name: count, dtype: int64
+
+Küme 20:
+Gender
+Male      3
+Female    2
+Name: count, dtype: int64
+
+Küme 21:
+Gender
+Male      4
+Female    1
+Name: count, dtype: int64
+
+Küme 22:
+Gender
+Male      4
+Female    1
+Name: count, dtype: int64
+
+Küme 23:
+Gender
+Male      4
+Female    3
+Name: count, dtype: int64
+
+Küme 24:
+Gender
+Male      6
+Female    1
+Name: count, dtype: int64
+
+Küme 25:
+Gender
+Male      3
+Female    2
+Name: count, dtype: int64
+
+Küme 26:
+Gender
+Male      5
+Female    2
+Name: count, dtype: int64
+
+Küme 27:
+Gender
+Male      7
+Female    2
+Name: count, dtype: int64
+
+Küme 28:
+Gender
+Female    5
+Male      2
+Name: count, dtype: int64
+
+Küme 29:
+Gender
+Male      5
+Female    1
+Name: count, dtype: int64
+
+Küme 30:
+Gender
+Male      5
+Female    3
+Name: count, dtype: int64
+
+Küme 31:
+Gender
+Male      4
+Female    2
+Name: count, dtype: int64
+
+Küme 32:
+Gender
+Male      4
+Female    1
+Name: count, dtype: int64
+
+Küme 33:
+Gender
+Male      3
+Female    2
+Name: count, dtype: int64
+
+Küme 34:
+Gender
+Male      3
+Female    2
+Name: count, dtype: int64
+
+Küme 35:
+Gender
+Male    5
+Name: count, dtype: int64
+
+Küme 36:
+Gender
+Male    5
+Name: count, dtype: int64
+
+Küme 37:
+Gender
+Male      3
+Female    2
+Name: count, dtype: int64
+
+Küme 38:
+Gender
+Female    3
+Male      2
+Name: count, dtype: int64
+
+Küme 39:
+Gender
+Male      3
+Female    2
+Name: count, dtype: int64
+
+Küme 40:
+Gender
+Female    2
+Male      1
+Name: count, dtype: int64
+
+Küme 41:
+Gender
+Male      4
+Female    1
+Name: count, dtype: int64
+
+Küme 42:
+Gender
+Male      3
+Female    2
+Name: count, dtype: int64
+
+Küme 43:
+Gender
+Male      3
+Female    2
+Name: count, dtype: int64
+
+Küme 44:
+Gender
+Female    4
+Male      2
+Name: count, dtype: int64
+
+Küme 45:
+Gender
+Male      4
+Female    1
+Name: count, dtype: int64
+
+Location Dağılımı:
+
+Küme 0:
+Location
+Maryland     1
+Minnesota    1
+Montana      1
+Alabama      1
+Ohio         1
+Name: count, dtype: int64
+
+Küme 1:
+Location
+South Carolina    1
+Massachusetts     1
+North Dakota      1
+North Carolina    1
+Oklahoma          1
+Name: count, dtype: int64
+
+Küme 2:
+Location
+Wyoming          1
+Connecticut      1
+New Hampshire    1
+West Virginia    1
+Alabama          1
+Name: count, dtype: int64
+
+Küme 3:
+Location
+Minnesota        1
+West Virginia    1
+Vermont          1
+Alabama          1
+California       1
+Name: count, dtype: int64
+
+Küme 4:
+Location
+Kentucky       1
+Mississippi    1
+Ohio           1
+Nevada         1
+Vermont        1
+Name: count, dtype: int64
+
+Küme 5:
+Location
+Alabama          1
+Michigan         1
+Montana          1
+California       1
+New Hampshire    1
+Name: count, dtype: int64
+
+Küme 6:
+Location
+Mississippi       1
+Illinois          1
+Michigan          1
+Ohio              1
+South Carolina    1
+Name: count, dtype: int64
+
+Küme 7:
+Location
+New Jersey    1
+Indiana       1
+Delaware      1
+Wyoming       1
+Louisiana     1
+Name: count, dtype: int64
+
+Küme 8:
+Location
+Connecticut    2
+Texas          1
+California     1
+Florida        1
+Utah           1
+Name: count, dtype: int64
+
+Küme 9:
+Location
+Florida      1
+Alabama      1
+Montana      1
+Wisconsin    1
+Iowa         1
+Name: count, dtype: int64
+
+Küme 10:
+Location
+Georgia       1
+Illinois      1
+Minnesota     1
+New York      1
+Washington    1
+Name: count, dtype: int64
+
+Küme 11:
+Location
+New Mexico    1
+Ohio          1
+Montana       1
+Alaska        1
+Indiana       1
+Name: count, dtype: int64
+
+Küme 12:
+Location
+Wyoming         1
+Nebraska        1
+Illinois        1
+Maryland        1
+South Dakota    1
+Name: count, dtype: int64
+
+Küme 13:
+Location
+Tennessee     2
+California    1
+Maryland      1
+Arizona       1
+Name: count, dtype: int64
+
+Küme 14:
+Location
+Iowa            2
+Rhode Island    1
+New York        1
+Minnesota       1
+Name: count, dtype: int64
+
+Küme 15:
+Location
+West Virginia     1
+Tennessee         1
+Georgia           1
+North Carolina    1
+Mississippi       1
+Name: count, dtype: int64
+
+Küme 16:
+Location
+Maine         1
+Utah          1
+Oklahoma      1
+California    1
+Kansas        1
+Name: count, dtype: int64
+
+Küme 17:
+Location
+Nevada          1
+New Mexico      1
+Ohio            1
+Rhode Island    1
+Colorado        1
+Name: count, dtype: int64
+
+Küme 18:
+Location
+Florida     1
+Ohio        1
+Virginia    1
+Maryland    1
+New York    1
+Name: count, dtype: int64
+
+Küme 19:
+Location
+Wisconsin     2
+California    1
+Iowa          1
+Utah          1
+Name: count, dtype: int64
+
+Küme 20:
+Location
+Indiana         1
+South Dakota    1
+Virginia        1
+Ohio            1
+Mississippi     1
+Name: count, dtype: int64
+
+Küme 21:
+Location
+Alaska            1
+Minnesota         1
+South Carolina    1
+Washington        1
+Utah              1
+Name: count, dtype: int64
+
+Küme 22:
+Location
+Hawaii        2
+Oklahoma      1
+California    1
+New Jersey    1
+Name: count, dtype: int64
+
+Küme 23:
+Location
+Oregon          1
+Ohio            1
+North Dakota    1
+Nevada          1
+Idaho           1
+Name: count, dtype: int64
+
+Küme 24:
+Location
+New Hampshire    1
+Tennessee        1
+Arkansas         1
+Alabama          1
+Kansas           1
+Name: count, dtype: int64
+
+Küme 25:
+Location
+North Dakota    1
+Montana         1
+Vermont         1
+Nebraska        1
+Iowa            1
+Name: count, dtype: int64
+
+Küme 26:
+Location
+California        1
+North Carolina    1
+New Jersey        1
+Connecticut       1
+Louisiana         1
+Name: count, dtype: int64
+
+Küme 27:
+Location
+Wisconsin       1
+Idaho           1
+Oklahoma        1
+Tennessee       1
+Rhode Island    1
+Name: count, dtype: int64
+
+Küme 28:
+Location
+Alaska           1
+Virginia         1
+Rhode Island     1
+Louisiana        1
+New Hampshire    1
+Name: count, dtype: int64
+
+Küme 29:
+Location
+Arkansas        1
+Connecticut     1
+Oregon          1
+Rhode Island    1
+Georgia         1
+Name: count, dtype: int64
+
+Küme 30:
+Location
+Georgia          1
+Connecticut      1
+Indiana          1
+Massachusetts    1
+Colorado         1
+Name: count, dtype: int64
+
+Küme 31:
+Location
+Massachusetts    1
+Montana          1
+New Mexico       1
+Texas            1
+Kentucky         1
+Name: count, dtype: int64
+
+Küme 32:
+Location
+Minnesota    2
+Florida      1
+Oregon       1
+Alabama      1
+Name: count, dtype: int64
+
+Küme 33:
+Location
+West Virginia    2
+Hawaii           1
+Texas            1
+Michigan         1
+Name: count, dtype: int64
+
+Küme 34:
+Location
+Maryland        2
+Hawaii          1
+South Dakota    1
+New York        1
+Name: count, dtype: int64
+
+Küme 35:
+Location
+North Dakota    1
+Rhode Island    1
+Arkansas        1
+Connecticut     1
+Texas           1
+Name: count, dtype: int64
+
+Küme 36:
+Location
+Arkansas       1
+Mississippi    1
+California     1
+Vermont        1
+New Mexico     1
+Name: count, dtype: int64
+
+Küme 37:
+Location
+Delaware        1
+New Jersey      1
+Rhode Island    1
+Maryland        1
+Kentucky        1
+Name: count, dtype: int64
+
+Küme 38:
+Location
+Michigan         1
+New Hampshire    1
+Utah             1
+Mississippi      1
+Connecticut      1
+Name: count, dtype: int64
+
+Küme 39:
+Location
+Maryland          1
+North Dakota      1
+Oregon            1
+Mississippi       1
+South Carolina    1
+Name: count, dtype: int64
+
+Küme 40:
+Location
+Washington    1
+Minnesota     1
+New York      1
+Name: count, dtype: int64
+
+Küme 41:
+Location
+Michigan      2
+New Mexico    1
+Alaska        1
+Utah          1
+Name: count, dtype: int64
+
+Küme 42:
+Location
+New York        1
+North Dakota    1
+Kansas          1
+New Jersey      1
+Alaska          1
+Name: count, dtype: int64
+
+Küme 43:
+Location
+Ohio            1
+Louisiana       1
+North Dakota    1
+Colorado        1
+Kansas          1
+Name: count, dtype: int64
+
+Küme 44:
+Location
+South Carolina    2
+Washington        2
+Pennsylvania      1
+Maryland          1
+Name: count, dtype: int64
+
+Küme 45:
+Location
+Pennsylvania     1
+California       1
+Idaho            1
+Hawaii           1
+Massachusetts    1
+Name: count, dtype: int64
+
+Season Dağılımı:
+
+Küme 0:
+Season
+Summer    2
+Fall      2
+Spring    1
+Winter    1
+Name: count, dtype: int64
+
+Küme 1:
+Season
+Winter    2
+Spring    2
+Summer    2
+Fall      1
+Name: count, dtype: int64
+
+Küme 2:
+Season
+Fall      4
+Winter    1
+Name: count, dtype: int64
+
+Küme 3:
+Season
+Winter    3
+Fall      3
+Summer    1
+Name: count, dtype: int64
+
+Küme 4:
+Season
+Spring    3
+Winter    2
+Summer    1
+Name: count, dtype: int64
+
+Küme 5:
+Season
+Summer    3
+Spring    3
+Winter    1
+Fall      1
+Name: count, dtype: int64
+
+Küme 6:
+Season
+Spring    2
+Winter    2
+Summer    1
+Name: count, dtype: int64
+
+Küme 7:
+Season
+Spring    3
+Winter    2
+Name: count, dtype: int64
+
+Küme 8:
+Season
+Spring    2
+Fall      2
+Summer    2
+Winter    1
+Name: count, dtype: int64
+
+Küme 9:
+Season
+Winter    2
+Summer    2
+Spring    2
+Fall      1
+Name: count, dtype: int64
+
+Küme 10:
+Season
+Spring    2
+Fall      1
+Winter    1
+Summer    1
+Name: count, dtype: int64
+
+Küme 11:
+Season
+Fall      2
+Spring    2
+Winter    1
+Name: count, dtype: int64
+
+Küme 12:
+Season
+Summer    5
+Spring    4
+Fall      2
+Name: count, dtype: int64
+
+Küme 13:
+Season
+Summer    2
+Fall      2
+Winter    1
+Name: count, dtype: int64
+
+Küme 14:
+Season
+Winter    3
+Fall      1
+Summer    1
+Name: count, dtype: int64
+
+Küme 15:
+Season
+Winter    3
+Summer    2
+Name: count, dtype: int64
+
+Küme 16:
+Season
+Fall    5
+Name: count, dtype: int64
+
+Küme 17:
+Season
+Summer    2
+Winter    2
+Fall      1
+Name: count, dtype: int64
+
+Küme 18:
+Season
+Winter    2
+Summer    1
+Spring    1
+Fall      1
+Name: count, dtype: int64
+
+Küme 19:
+Season
+Summer    2
+Fall      2
+Spring    1
+Name: count, dtype: int64
+
+Küme 20:
+Season
+Fall      2
+Winter    1
+Summer    1
+Spring    1
+Name: count, dtype: int64
+
+Küme 21:
+Season
+Spring    2
+Fall      2
+Winter    1
+Name: count, dtype: int64
+
+Küme 22:
+Season
+Summer    2
+Fall      2
+Spring    1
+Name: count, dtype: int64
+
+Küme 23:
+Season
+Fall      3
+Spring    2
+Summer    1
+Winter    1
+Name: count, dtype: int64
+
+Küme 24:
+Season
+Spring    6
+Winter    1
+Name: count, dtype: int64
+
+Küme 25:
+Season
+Spring    2
+Summer    2
+Winter    1
+Name: count, dtype: int64
+
+Küme 26:
+Season
+Winter    3
+Spring    2
+Summer    2
+Name: count, dtype: int64
+
+Küme 27:
+Season
+Winter    4
+Summer    3
+Spring    1
+Fall      1
+Name: count, dtype: int64
+
+Küme 28:
+Season
+Winter    3
+Fall      3
+Summer    1
+Name: count, dtype: int64
+
+Küme 29:
+Season
+Spring    2
+Winter    2
+Fall      1
+Summer    1
+Name: count, dtype: int64
+
+Küme 30:
+Season
+Fall      3
+Spring    3
+Summer    2
+Name: count, dtype: int64
+
+Küme 31:
+Season
+Spring    3
+Winter    1
+Fall      1
+Summer    1
+Name: count, dtype: int64
+
+Küme 32:
+Season
+Winter    3
+Spring    2
+Name: count, dtype: int64
+
+Küme 33:
+Season
+Summer    2
+Fall      1
+Winter    1
+Spring    1
+Name: count, dtype: int64
+
+Küme 34:
+Season
+Fall      2
+Summer    2
+Spring    1
+Name: count, dtype: int64
+
+Küme 35:
+Season
+Winter    2
+Spring    1
+Fall      1
+Summer    1
+Name: count, dtype: int64
+
+Küme 36:
+Season
+Fall      3
+Spring    2
+Name: count, dtype: int64
+
+Küme 37:
+Season
+Fall      3
+Summer    2
+Name: count, dtype: int64
+
+Küme 38:
+Season
+Fall      2
+Summer    1
+Winter    1
+Spring    1
+Name: count, dtype: int64
+
+Küme 39:
+Season
+Summer    2
+Spring    2
+Winter    1
+Name: count, dtype: int64
+
+Küme 40:
+Season
+Fall      2
+Spring    1
+Name: count, dtype: int64
+
+Küme 41:
+Season
+Spring    3
+Summer    1
+Winter    1
+Name: count, dtype: int64
+
+Küme 42:
+Season
+Spring    3
+Winter    2
+Name: count, dtype: int64
+
+Küme 43:
+Season
+Summer    3
+Fall      1
+Winter    1
+Name: count, dtype: int64
+
+Küme 44:
+Season
+Summer    3
+Spring    2
+Fall      1
+Name: count, dtype: int64
+
+Küme 45:
+Season
+Fall      2
+Summer    1
+Winter    1
+Spring    1
+Name: count, dtype: int64
+
+Category Dağılımı:
+
+Küme 0:
+Category
+Clothing       3
+Accessories    1
+Outerwear      1
+Footwear       1
+Name: count, dtype: int64
+
+Küme 1:
+Category
+Clothing     6
+Outerwear    1
+Name: count, dtype: int64
+
+Küme 2:
+Category
+Clothing     3
+Outerwear    1
+Footwear     1
+Name: count, dtype: int64
+
+Küme 3:
+Category
+Accessories    4
+Footwear       2
+Clothing       1
+Name: count, dtype: int64
+
+Küme 4:
+Category
+Clothing       3
+Footwear       2
+Accessories    1
+Name: count, dtype: int64
+
+Küme 5:
+Category
+Accessories    4
+Clothing       4
+Name: count, dtype: int64
+
+Küme 6:
+Category
+Accessories    3
+Footwear       1
+Outerwear      1
+Name: count, dtype: int64
+
+Küme 7:
+Category
+Clothing    3
+Footwear    2
+Name: count, dtype: int64
+
+Küme 8:
+Category
+Clothing       4
+Accessories    3
+Name: count, dtype: int64
+
+Küme 9:
+Category
+Clothing       4
+Accessories    2
+Outerwear      1
+Name: count, dtype: int64
+
+Küme 10:
+Category
+Clothing    3
+Footwear    2
+Name: count, dtype: int64
+
+Küme 11:
+Category
+Accessories    2
+Outerwear      1
+Footwear       1
+Clothing       1
+Name: count, dtype: int64
+
+Küme 12:
+Category
+Clothing       7
+Footwear       2
+Accessories    1
+Outerwear      1
+Name: count, dtype: int64
+
+Küme 13:
+Category
+Accessories    3
+Clothing       2
+Name: count, dtype: int64
+
+Küme 14:
+Category
+Clothing     2
+Footwear     2
+Outerwear    1
+Name: count, dtype: int64
+
+Küme 15:
+Category
+Accessories    4
+Clothing       1
+Name: count, dtype: int64
+
+Küme 16:
+Category
+Footwear       2
+Accessories    2
+Clothing       1
+Name: count, dtype: int64
+
+Küme 17:
+Category
+Accessories    3
+Clothing       2
+Name: count, dtype: int64
+
+Küme 18:
+Category
+Outerwear      2
+Accessories    2
+Footwear       1
+Name: count, dtype: int64
+
+Küme 19:
+Category
+Clothing       2
+Accessories    2
+Footwear       1
+Name: count, dtype: int64
+
+Küme 20:
+Category
+Clothing       3
+Accessories    2
+Name: count, dtype: int64
+
+Küme 21:
+Category
+Clothing       2
+Accessories    2
+Outerwear      1
+Name: count, dtype: int64
+
+Küme 22:
+Category
+Accessories    2
+Footwear       2
+Outerwear      1
+Name: count, dtype: int64
+
+Küme 23:
+Category
+Clothing       4
+Accessories    3
+Name: count, dtype: int64
+
+Küme 24:
+Category
+Clothing       4
+Footwear       2
+Accessories    1
+Name: count, dtype: int64
+
+Küme 25:
+Category
+Clothing       3
+Accessories    2
+Name: count, dtype: int64
+
+Küme 26:
+Category
+Accessories    4
+Clothing       2
+Footwear       1
+Name: count, dtype: int64
+
+Küme 27:
+Category
+Clothing       5
+Accessories    4
+Name: count, dtype: int64
+
+Küme 28:
+Category
+Clothing       4
+Accessories    2
+Footwear       1
+Name: count, dtype: int64
+
+Küme 29:
+Category
+Clothing    4
+Footwear    2
+Name: count, dtype: int64
+
+Küme 30:
+Category
+Clothing       5
+Accessories    2
+Footwear       1
+Name: count, dtype: int64
+
+Küme 31:
+Category
+Clothing       4
+Accessories    2
+Name: count, dtype: int64
+
+Küme 32:
+Category
+Footwear       3
+Clothing       1
+Accessories    1
+Name: count, dtype: int64
+
+Küme 33:
+Category
+Accessories    2
+Clothing       2
+Outerwear      1
+Name: count, dtype: int64
+
+Küme 34:
+Category
+Clothing       3
+Accessories    1
+Outerwear      1
+Name: count, dtype: int64
+
+Küme 35:
+Category
+Accessories    3
+Clothing       1
+Footwear       1
+Name: count, dtype: int64
+
+Küme 36:
+Category
+Accessories    3
+Clothing       1
+Footwear       1
+Name: count, dtype: int64
+
+Küme 37:
+Category
+Accessories    2
+Clothing       1
+Outerwear      1
+Footwear       1
+Name: count, dtype: int64
+
+Küme 38:
+Category
+Footwear       3
+Accessories    2
+Name: count, dtype: int64
+
+Küme 39:
+Category
+Accessories    2
+Clothing       2
+Outerwear      1
+Name: count, dtype: int64
+
+Küme 40:
+Category
+Footwear    2
+Clothing    1
+Name: count, dtype: int64
+
+Küme 41:
+Category
+Clothing       3
+Accessories    2
+Name: count, dtype: int64
+
+Küme 42:
+Category
+Clothing       3
+Accessories    1
+Outerwear      1
+Name: count, dtype: int64
+
+Küme 43:
+Category
+Clothing     2
+Footwear     2
+Outerwear    1
+Name: count, dtype: int64
+
+Küme 44:
+Category
+Clothing     5
+Outerwear    1
+Name: count, dtype: int64
+
+Küme 45:
+Category
+Clothing       3
+Accessories    2
+Name: count, dtype: int64
+
+Shipping Type Dağılımı:
+
+Küme 0:
+Shipping Type
+Store Pickup     2
+Next Day Air     2
+Express          1
+Free Shipping    1
+Name: count, dtype: int64
+
+Küme 1:
+Shipping Type
+Free Shipping    3
+Next Day Air     3
+Store Pickup     1
+Name: count, dtype: int64
+
+Küme 2:
+Shipping Type
+Next Day Air      2
+Store Pickup      1
+2-Day Shipping    1
+Free Shipping     1
+Name: count, dtype: int64
+
+Küme 3:
+Shipping Type
+Standard         3
+Store Pickup     2
+Free Shipping    2
+Name: count, dtype: int64
+
+Küme 4:
+Shipping Type
+Store Pickup      3
+2-Day Shipping    2
+Free Shipping     1
+Name: count, dtype: int64
+
+Küme 5:
+Shipping Type
+Store Pickup     4
+Next Day Air     2
+Free Shipping    2
+Name: count, dtype: int64
+
+Küme 6:
+Shipping Type
+Store Pickup      2
+Free Shipping     1
+Standard          1
+2-Day Shipping    1
+Name: count, dtype: int64
+
+Küme 7:
+Shipping Type
+Standard          2
+2-Day Shipping    2
+Store Pickup      1
+Name: count, dtype: int64
+
+Küme 8:
+Shipping Type
+Express         2
+Standard        2
+Next Day Air    2
+Store Pickup    1
+Name: count, dtype: int64
+
+Küme 9:
+Shipping Type
+2-Day Shipping    2
+Standard          2
+Express           2
+Store Pickup      1
+Name: count, dtype: int64
+
+Küme 10:
+Shipping Type
+Next Day Air     2
+Standard         1
+Express          1
+Free Shipping    1
+Name: count, dtype: int64
+
+Küme 11:
+Shipping Type
+2-Day Shipping    2
+Express           1
+Next Day Air      1
+Store Pickup      1
+Name: count, dtype: int64
+
+Küme 12:
+Shipping Type
+Express         5
+Standard        3
+Store Pickup    2
+Next Day Air    1
+Name: count, dtype: int64
+
+Küme 13:
+Shipping Type
+2-Day Shipping    2
+Express           1
+Free Shipping     1
+Store Pickup      1
+Name: count, dtype: int64
+
+Küme 14:
+Shipping Type
+Store Pickup      3
+Standard          1
+2-Day Shipping    1
+Name: count, dtype: int64
+
+Küme 15:
+Shipping Type
+Store Pickup      2
+2-Day Shipping    2
+Express           1
+Name: count, dtype: int64
+
+Küme 16:
+Shipping Type
+Express          2
+Free Shipping    1
+Next Day Air     1
+Standard         1
+Name: count, dtype: int64
+
+Küme 17:
+Shipping Type
+Next Day Air     2
+Free Shipping    2
+Store Pickup     1
+Name: count, dtype: int64
+
+Küme 18:
+Shipping Type
+Standard         3
+Next Day Air     1
+Free Shipping    1
+Name: count, dtype: int64
+
+Küme 19:
+Shipping Type
+Express          2
+Standard         1
+Store Pickup     1
+Free Shipping    1
+Name: count, dtype: int64
+
+Küme 20:
+Shipping Type
+Standard         3
+Store Pickup     1
+Free Shipping    1
+Name: count, dtype: int64
+
+Küme 21:
+Shipping Type
+Store Pickup    2
+Next Day Air    2
+Standard        1
+Name: count, dtype: int64
+
+Küme 22:
+Shipping Type
+Standard         2
+Next Day Air     1
+Free Shipping    1
+Express          1
+Name: count, dtype: int64
+
+Küme 23:
+Shipping Type
+Free Shipping     4
+Store Pickup      1
+Next Day Air      1
+2-Day Shipping    1
+Name: count, dtype: int64
+
+Küme 24:
+Shipping Type
+2-Day Shipping    2
+Express           1
+Store Pickup      1
+Standard          1
+Next Day Air      1
+Name: count, dtype: int64
+
+Küme 25:
+Shipping Type
+2-Day Shipping    2
+Standard          1
+Free Shipping     1
+Express           1
+Name: count, dtype: int64
+
+Küme 26:
+Shipping Type
+Next Day Air      2
+Store Pickup      2
+Express           1
+2-Day Shipping    1
+Standard          1
+Name: count, dtype: int64
+
+Küme 27:
+Shipping Type
+Store Pickup     3
+Express          2
+Next Day Air     2
+Standard         1
+Free Shipping    1
+Name: count, dtype: int64
+
+Küme 28:
+Shipping Type
+Free Shipping     2
+Express           2
+2-Day Shipping    1
+Store Pickup      1
+Next Day Air      1
+Name: count, dtype: int64
+
+Küme 29:
+Shipping Type
+2-Day Shipping    3
+Store Pickup      1
+Standard          1
+Next Day Air      1
+Name: count, dtype: int64
+
+Küme 30:
+Shipping Type
+Store Pickup      3
+Express           2
+Standard          2
+2-Day Shipping    1
+Name: count, dtype: int64
+
+Küme 31:
+Shipping Type
+Standard         3
+Store Pickup     2
+Free Shipping    1
+Name: count, dtype: int64
+
+Küme 32:
+Shipping Type
+Free Shipping     2
+Standard          1
+2-Day Shipping    1
+Store Pickup      1
+Name: count, dtype: int64
+
+Küme 33:
+Shipping Type
+Express          2
+Standard         1
+Free Shipping    1
+Next Day Air     1
+Name: count, dtype: int64
+
+Küme 34:
+Shipping Type
+Free Shipping     2
+2-Day Shipping    2
+Store Pickup      1
+Name: count, dtype: int64
+
+Küme 35:
+Shipping Type
+Next Day Air     2
+Store Pickup     1
+Express          1
+Free Shipping    1
+Name: count, dtype: int64
+
+Küme 36:
+Shipping Type
+Express         2
+Next Day Air    2
+Store Pickup    1
+Name: count, dtype: int64
+
+Küme 37:
+Shipping Type
+Free Shipping    2
+Express          2
+Standard         1
+Name: count, dtype: int64
+
+Küme 38:
+Shipping Type
+Standard          2
+Free Shipping     1
+2-Day Shipping    1
+Next Day Air      1
+Name: count, dtype: int64
+
+Küme 39:
+Shipping Type
+Express          2
+Store Pickup     2
+Free Shipping    1
+Name: count, dtype: int64
+
+Küme 40:
+Shipping Type
+Store Pickup     1
+Next Day Air     1
+Free Shipping    1
+Name: count, dtype: int64
+
+Küme 41:
+Shipping Type
+Standard        2
+Store Pickup    1
+Express         1
+Next Day Air    1
+Name: count, dtype: int64
+
+Küme 42:
+Shipping Type
+Store Pickup      2
+Express           1
+2-Day Shipping    1
+Next Day Air      1
+Name: count, dtype: int64
+
+Küme 43:
+Shipping Type
+Store Pickup    2
+Standard        1
+Express         1
+Next Day Air    1
+Name: count, dtype: int64
+
+Küme 44:
+Shipping Type
+Express          2
+Store Pickup     2
+Standard         1
+Free Shipping    1
+Name: count, dtype: int64
+
+Küme 45:
+Shipping Type
+2-Day Shipping    2
+Next Day Air      1
+Free Shipping     1
+Store Pickup      1
+Name: count, dtype: int64
+
+Payment Method Dağılımı:
+
+Küme 0:
+Payment Method
+Cash          3
+Debit Card    2
+PayPal        1
+Name: count, dtype: int64
+
+Küme 1:
+Payment Method
+Credit Card      2
+Cash             2
+Bank Transfer    1
+Debit Card       1
+Venmo            1
+Name: count, dtype: int64
+
+Küme 2:
+Payment Method
+Bank Transfer    2
+Venmo            1
+Cash             1
+Debit Card       1
+Name: count, dtype: int64
+
+Küme 3:
+Payment Method
+Bank Transfer    3
+Cash             1
+PayPal           1
+Debit Card       1
+Credit Card      1
+Name: count, dtype: int64
+
+Küme 4:
+Payment Method
+Venmo         3
+PayPal        1
+Cash          1
+Debit Card    1
+Name: count, dtype: int64
+
+Küme 5:
+Payment Method
+Credit Card      3
+Cash             2
+PayPal           1
+Bank Transfer    1
+Venmo            1
+Name: count, dtype: int64
+
+Küme 6:
+Payment Method
+Credit Card    2
+Cash           1
+PayPal         1
+Debit Card     1
+Name: count, dtype: int64
+
+Küme 7:
+Payment Method
+Debit Card    2
+Venmo         2
+Cash          1
+Name: count, dtype: int64
+
+Küme 8:
+Payment Method
+Bank Transfer    4
+PayPal           2
+Cash             1
+Name: count, dtype: int64
+
+Küme 9:
+Payment Method
+Debit Card       2
+Bank Transfer    2
+Cash             2
+PayPal           1
+Name: count, dtype: int64
+
+Küme 10:
+Payment Method
+Credit Card      2
+Debit Card       1
+Bank Transfer    1
+Venmo            1
+Name: count, dtype: int64
+
+Küme 11:
+Payment Method
+PayPal         2
+Venmo          2
+Credit Card    1
+Name: count, dtype: int64
+
+Küme 12:
+Payment Method
+Venmo            2
+Cash             2
+Bank Transfer    2
+PayPal           2
+Debit Card       2
+Name: count, dtype: int64
+
+Küme 13:
+Payment Method
+Credit Card    4
+PayPal         1
+Name: count, dtype: int64
+
+Küme 14:
+Payment Method
+Venmo         2
+Debit Card    2
+Cash          1
+Name: count, dtype: int64
+
+Küme 15:
+Payment Method
+Cash           2
+Venmo          1
+Credit Card    1
+PayPal         1
+Name: count, dtype: int64
+
+Küme 16:
+Payment Method
+Bank Transfer    3
+PayPal           1
+Cash             1
+Name: count, dtype: int64
+
+Küme 17:
+Payment Method
+Debit Card     2
+Credit Card    1
+PayPal         1
+Cash           1
+Name: count, dtype: int64
+
+Küme 18:
+Payment Method
+Credit Card      2
+Bank Transfer    1
+Venmo            1
+Debit Card       1
+Name: count, dtype: int64
+
+Küme 19:
+Payment Method
+Debit Card       2
+Bank Transfer    1
+Cash             1
+PayPal           1
+Name: count, dtype: int64
+
+Küme 20:
+Payment Method
+PayPal           1
+Bank Transfer    1
+Credit Card      1
+Debit Card       1
+Cash             1
+Name: count, dtype: int64
+
+Küme 21:
+Payment Method
+Credit Card      2
+Bank Transfer    1
+Venmo            1
+Debit Card       1
+Name: count, dtype: int64
+
+Küme 22:
+Payment Method
+Cash           3
+Venmo          1
+Credit Card    1
+Name: count, dtype: int64
+
+Küme 23:
+Payment Method
+Credit Card    3
+PayPal         2
+Cash           2
+Name: count, dtype: int64
+
+Küme 24:
+Payment Method
+Bank Transfer    2
+Venmo            2
+PayPal           1
+Cash             1
+Debit Card       1
+Name: count, dtype: int64
+
+Küme 25:
+Payment Method
+Bank Transfer    3
+Venmo            1
+Cash             1
+Name: count, dtype: int64
+
+Küme 26:
+Payment Method
+Cash             2
+Credit Card      2
+PayPal           1
+Venmo            1
+Bank Transfer    1
+Name: count, dtype: int64
+
+Küme 27:
+Payment Method
+Bank Transfer    3
+Cash             2
+Credit Card      2
+PayPal           2
+Name: count, dtype: int64
+
+Küme 28:
+Payment Method
+Credit Card    3
+Venmo          2
+Debit Card     1
+PayPal         1
+Name: count, dtype: int64
+
+Küme 29:
+Payment Method
+Credit Card      2
+Debit Card       2
+Bank Transfer    1
+Cash             1
+Name: count, dtype: int64
+
+Küme 30:
+Payment Method
+Venmo          3
+Credit Card    2
+PayPal         2
+Cash           1
+Name: count, dtype: int64
+
+Küme 31:
+Payment Method
+Cash             3
+Credit Card      1
+Bank Transfer    1
+PayPal           1
+Name: count, dtype: int64
+
+Küme 32:
+Payment Method
+Venmo            2
+Credit Card      2
+Bank Transfer    1
+Name: count, dtype: int64
+
+Küme 33:
+Payment Method
+PayPal         3
+Credit Card    1
+Debit Card     1
+Name: count, dtype: int64
+
+Küme 34:
+Payment Method
+Venmo         2
+Cash          2
+Debit Card    1
+Name: count, dtype: int64
+
+Küme 35:
+Payment Method
+PayPal    5
+Name: count, dtype: int64
+
+Küme 36:
+Payment Method
+Venmo            2
+Debit Card       1
+Credit Card      1
+Bank Transfer    1
+Name: count, dtype: int64
+
+Küme 37:
+Payment Method
+Bank Transfer    3
+Venmo            1
+Debit Card       1
+Name: count, dtype: int64
+
+Küme 38:
+Payment Method
+PayPal           1
+Bank Transfer    1
+Cash             1
+Debit Card       1
+Credit Card      1
+Name: count, dtype: int64
+
+Küme 39:
+Payment Method
+Credit Card      3
+Bank Transfer    2
+Name: count, dtype: int64
+
+Küme 40:
+Payment Method
+Venmo     2
+PayPal    1
+Name: count, dtype: int64
+
+Küme 41:
+Payment Method
+PayPal           2
+Bank Transfer    2
+Debit Card       1
+Name: count, dtype: int64
+
+Küme 42:
+Payment Method
+Bank Transfer    2
+PayPal           1
+Cash             1
+Credit Card      1
+Name: count, dtype: int64
+
+Küme 43:
+Payment Method
+Cash           3
+PayPal         1
+Credit Card    1
+Name: count, dtype: int64
+
+Küme 44:
+Payment Method
+PayPal           3
+Venmo            1
+Bank Transfer    1
+Debit Card       1
+Name: count, dtype: int64
+
+Küme 45:
+Payment Method
+PayPal           2
+Credit Card      1
+Venmo            1
+Bank Transfer    1
+Name: count, dtype: int64
+
+Frequency of Purchases Dağılımı:
+
+Küme 0:
+Frequency of Purchases
+Monthly           2
+Bi-Weekly         1
+Every 3 Months    1
+Weekly            1
+Quarterly         1
+Name: count, dtype: int64
+
+Küme 1:
+Frequency of Purchases
+Quarterly         3
+Monthly           2
+Annually          1
+Every 3 Months    1
+Name: count, dtype: int64
+
+Küme 2:
+Frequency of Purchases
+Bi-Weekly         3
+Every 3 Months    1
+Quarterly         1
+Name: count, dtype: int64
+
+Küme 3:
+Frequency of Purchases
+Every 3 Months    2
+Quarterly         2
+Weekly            1
+Monthly           1
+Annually          1
+Name: count, dtype: int64
+
+Küme 4:
+Frequency of Purchases
+Quarterly      2
+Fortnightly    1
+Monthly        1
+Weekly         1
+Annually       1
+Name: count, dtype: int64
+
+Küme 5:
+Frequency of Purchases
+Monthly           2
+Quarterly         2
+Every 3 Months    1
+Annually          1
+Fortnightly       1
+Name: count, dtype: int64
+
+Küme 6:
+Frequency of Purchases
+Fortnightly       1
+Quarterly         1
+Monthly           1
+Bi-Weekly         1
+Every 3 Months    1
+Name: count, dtype: int64
+
+Küme 7:
+Frequency of Purchases
+Monthly      2
+Bi-Weekly    2
+Weekly       1
+Name: count, dtype: int64
+
+Küme 8:
+Frequency of Purchases
+Every 3 Months    2
+Monthly           2
+Annually          2
+Quarterly         1
+Name: count, dtype: int64
+
+Küme 9:
+Frequency of Purchases
+Annually          2
+Every 3 Months    1
+Monthly           1
+Fortnightly       1
+Quarterly         1
+Name: count, dtype: int64
+
+Küme 10:
+Frequency of Purchases
+Every 3 Months    2
+Fortnightly       1
+Bi-Weekly         1
+Monthly           1
+Name: count, dtype: int64
+
+Küme 11:
+Frequency of Purchases
+Every 3 Months    2
+Fortnightly       1
+Quarterly         1
+Annually          1
+Name: count, dtype: int64
+
+Küme 12:
+Frequency of Purchases
+Bi-Weekly         4
+Monthly           2
+Every 3 Months    2
+Weekly            1
+Quarterly         1
+Name: count, dtype: int64
+
+Küme 13:
+Frequency of Purchases
+Weekly         2
+Monthly        1
+Fortnightly    1
+Annually       1
+Name: count, dtype: int64
+
+Küme 14:
+Frequency of Purchases
+Fortnightly    3
+Monthly        1
+Weekly         1
+Name: count, dtype: int64
+
+Küme 15:
+Frequency of Purchases
+Monthly     2
+Annually    2
+Weekly      1
+Name: count, dtype: int64
+
+Küme 16:
+Frequency of Purchases
+Quarterly         2
+Annually          1
+Every 3 Months    1
+Monthly           1
+Name: count, dtype: int64
+
+Küme 17:
+Frequency of Purchases
+Annually          2
+Every 3 Months    2
+Monthly           1
+Name: count, dtype: int64
+
+Küme 18:
+Frequency of Purchases
+Every 3 Months    2
+Weekly            1
+Fortnightly       1
+Monthly           1
+Name: count, dtype: int64
+
+Küme 19:
+Frequency of Purchases
+Quarterly    2
+Annually     2
+Bi-Weekly    1
+Name: count, dtype: int64
+
+Küme 20:
+Frequency of Purchases
+Fortnightly       2
+Monthly           2
+Every 3 Months    1
+Name: count, dtype: int64
+
+Küme 21:
+Frequency of Purchases
+Every 3 Months    3
+Monthly           1
+Annually          1
+Name: count, dtype: int64
+
+Küme 22:
+Frequency of Purchases
+Monthly           1
+Every 3 Months    1
+Weekly            1
+Bi-Weekly         1
+Annually          1
+Name: count, dtype: int64
+
+Küme 23:
+Frequency of Purchases
+Weekly            2
+Monthly           2
+Bi-Weekly         1
+Quarterly         1
+Every 3 Months    1
+Name: count, dtype: int64
+
+Küme 24:
+Frequency of Purchases
+Annually          2
+Every 3 Months    2
+Monthly           1
+Weekly            1
+Fortnightly       1
+Name: count, dtype: int64
+
+Küme 25:
+Frequency of Purchases
+Quarterly         2
+Every 3 Months    1
+Annually          1
+Weekly            1
+Name: count, dtype: int64
+
+Küme 26:
+Frequency of Purchases
+Fortnightly       2
+Bi-Weekly         2
+Every 3 Months    1
+Quarterly         1
+Annually          1
+Name: count, dtype: int64
+
+Küme 27:
+Frequency of Purchases
+Bi-Weekly         3
+Monthly           2
+Every 3 Months    2
+Weekly            1
+Annually          1
+Name: count, dtype: int64
+
+Küme 28:
+Frequency of Purchases
+Monthly           3
+Weekly            2
+Every 3 Months    1
+Fortnightly       1
+Name: count, dtype: int64
+
+Küme 29:
+Frequency of Purchases
+Monthly           2
+Annually          2
+Bi-Weekly         1
+Every 3 Months    1
+Name: count, dtype: int64
+
+Küme 30:
+Frequency of Purchases
+Annually       3
+Bi-Weekly      2
+Fortnightly    2
+Monthly        1
+Name: count, dtype: int64
+
+Küme 31:
+Frequency of Purchases
+Weekly            1
+Every 3 Months    1
+Fortnightly       1
+Quarterly         1
+Bi-Weekly         1
+Name: count, dtype: int64
+
+Küme 32:
+Frequency of Purchases
+Weekly         3
+Annually       1
+Fortnightly    1
+Name: count, dtype: int64
+
+Küme 33:
+Frequency of Purchases
+Every 3 Months    2
+Quarterly         1
+Bi-Weekly         1
+Fortnightly       1
+Name: count, dtype: int64
+
+Küme 34:
+Frequency of Purchases
+Fortnightly    3
+Annually       2
+Name: count, dtype: int64
+
+Küme 35:
+Frequency of Purchases
+Bi-Weekly         2
+Weekly            1
+Monthly           1
+Every 3 Months    1
+Name: count, dtype: int64
+
+Küme 36:
+Frequency of Purchases
+Every 3 Months    1
+Weekly            1
+Annually          1
+Quarterly         1
+Fortnightly       1
+Name: count, dtype: int64
+
+Küme 37:
+Frequency of Purchases
+Monthly           3
+Every 3 Months    1
+Fortnightly       1
+Name: count, dtype: int64
+
+Küme 38:
+Frequency of Purchases
+Every 3 Months    2
+Quarterly         1
+Bi-Weekly         1
+Weekly            1
+Name: count, dtype: int64
+
+Küme 39:
+Frequency of Purchases
+Bi-Weekly         2
+Fortnightly       1
+Quarterly         1
+Every 3 Months    1
+Name: count, dtype: int64
+
+Küme 40:
+Frequency of Purchases
+Monthly      2
+Quarterly    1
+Name: count, dtype: int64
+
+Küme 41:
+Frequency of Purchases
+Every 3 Months    2
+Quarterly         2
+Annually          1
+Name: count, dtype: int64
+
+Küme 42:
+Frequency of Purchases
+Weekly            1
+Bi-Weekly         1
+Every 3 Months    1
+Quarterly         1
+Monthly           1
+Name: count, dtype: int64
+
+Küme 43:
+Frequency of Purchases
+Fortnightly    2
+Quarterly      1
+Annually       1
+Monthly        1
+Name: count, dtype: int64
+
+Küme 44:
+Frequency of Purchases
+Bi-Weekly         2
+Fortnightly       2
+Annually          1
+Every 3 Months    1
+Name: count, dtype: int64
+
+Küme 45:
+Frequency of Purchases
+Bi-Weekly         3
+Monthly           1
+Every 3 Months    1
+Name: count, dtype: int64

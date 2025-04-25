@@ -1,0 +1,209 @@
+Prelabel Kombinasyonu: Color + Season
+Silhouette Skoru: 0.2143 (Baseline'dan iyileştirme: 0.0229)
+
+Küme İstatistikleri:
+                          Age       Purchase Amount (USD)          Review Rating Previous Purchases
+                         mean count                  mean min  max          mean               mean
+Cluster_Color + Season                                                                             
+0                       58.64   406                 82.65  58  100          4.22              18.82
+1                       31.04   314                 79.10  53  100          4.41              13.48
+2                       33.26   408                 76.01  33  100          4.32              40.48
+3                       33.15   446                 44.37  20   84          3.13              37.33
+4                       33.60   430                 77.56  38  100          3.05              14.13
+5                       56.23   430                 42.59  20   86          3.04              16.69
+6                       29.02   408                 35.40  20   59          4.11              16.17
+7                       55.62   269                 39.77  20   65          4.38              13.06
+8                       56.21   383                 80.98  44  100          3.20              37.72
+9                       56.64   406                 39.56  20   77          4.11              39.46
+
+Küme İçerikleri:
+
+Küme 0:
+Color için en sık değerler:
+Color
+Orange    26
+Black     24
+Yellow    24
+Blue      23
+Green     21
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Fall      107
+Spring    106
+Winter    104
+Summer     89
+Name: count, dtype: int64
+
+
+Küme 1:
+Color için en sık değerler:
+Color
+Yellow    20
+Green     18
+Olive     17
+Pink      17
+Maroon    17
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Fall      88
+Spring    86
+Winter    77
+Summer    63
+Name: count, dtype: int64
+
+
+Küme 2:
+Color için en sık değerler:
+Color
+Gray       29
+Maroon     28
+White      23
+Cyan       21
+Magenta    21
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Summer    106
+Winter    105
+Spring    101
+Fall       96
+Name: count, dtype: int64
+
+
+Küme 3:
+Color için en sık değerler:
+Color
+Peach       25
+Green       23
+Lavender    22
+Cyan        21
+Silver      20
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Winter    124
+Summer    113
+Fall      110
+Spring     99
+Name: count, dtype: int64
+
+
+Küme 4:
+Color için en sık değerler:
+Color
+Green     28
+Teal      24
+Violet    21
+Purple    21
+Olive     21
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Fall      117
+Winter    111
+Spring    102
+Summer    100
+Name: count, dtype: int64
+
+
+Küme 5:
+Color için en sık değerler:
+Color
+Cyan      25
+Beige     24
+Blue      22
+Violet    22
+Teal      21
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Spring    121
+Fall      110
+Summer    108
+Winter     91
+Name: count, dtype: int64
+
+
+Küme 6:
+Color için en sık değerler:
+Color
+Yellow     25
+Blue       23
+Silver     23
+Black      22
+Magenta    22
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Summer    116
+Spring    100
+Fall       97
+Winter     95
+Name: count, dtype: int64
+
+
+Küme 7:
+Color için en sık değerler:
+Color
+Teal      20
+Pink      16
+Violet    15
+Black     15
+Olive     15
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Spring    83
+Summer    64
+Fall      62
+Winter    60
+Name: count, dtype: int64
+
+
+Küme 8:
+Color için en sık değerler:
+Color
+Cyan      23
+Beige     21
+Olive     21
+Violet    20
+Gray      18
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Spring    98
+Fall      97
+Summer    97
+Winter    91
+Name: count, dtype: int64
+
+
+Küme 9:
+Color için en sık değerler:
+Color
+Silver       24
+Turquoise    24
+Black        21
+Olive        20
+Gray         20
+Name: count, dtype: int64
+
+Season için en sık değerler:
+Season
+Winter    113
+Spring    103
+Summer     99
+Fall       91
+Name: count, dtype: int64
+
