@@ -100,22 +100,104 @@ class AutomatedClusteringAnalysis:
                 print(f"  Davies-Bouldin Score: {results['davies_bouldin_score']:.4f}")
                 print(f"  Calinski-Harabasz Score: {results['calinski_harabasz_score']:.4f}")
     
-    def run_dbscan_analysis(self, features, category, eps_range=[0.3, 0.5, 0.7, 1.0], min_samples_range=[5, 10, 15]):
+    def run_dbscan_analysis(self, features, category, eps_range=None, min_samples_range=[5, 10, 15]):
         """Run DBSCAN clustering with different parameters"""
         print(f"\n=== DBSCAN Clustering Analysis for Category: {category} ===")
+        
+        # Scale the features for DBSCAN
+        scaled_features = self.scaler.fit_transform(features)
+        
+        # Calculate default eps range based on data characteristics if not provided
+        if eps_range is None:
+            # Calculate pairwise distances
+            from sklearn.metrics.pairwise import euclidean_distances
+            distances = euclidean_distances(scaled_features)
+            # Get the k-nearest neighbor distances
+            k = 5  # Number of neighbors to consider
+            k_distances = np.sort(distances, axis=1)[:, k]
+            k_distances = np.sort(k_distances)
+            
+            # Plot the k-distance graph
+            plt.figure(figsize=(10, 6))
+            plt.plot(k_distances)
+            plt.title(f'K-Distance Graph for {category} (k={k})')
+            plt.xlabel('Points sorted by distance')
+            plt.ylabel(f'{k}-th nearest neighbor distance')
+            plt.grid(True)
+            plt.show()
+            
+            # Find the "elbow" point in the k-distance graph
+            # Use the point where the curve starts to flatten
+            eps_min = np.percentile(k_distances, 10)
+            eps_max = np.percentile(k_distances, 90)
+            eps_range = np.linspace(eps_min, eps_max, 5)
+            print(f"Using adaptive eps range: {eps_range}")
+        
+        best_score = -1
+        best_params = None
+        best_labels = None
+        
         for eps in eps_range:
             for min_samples in min_samples_range:
                 dbscan = DBSCAN(eps=eps, min_samples=min_samples)
-                labels = dbscan.fit_predict(features)
+                labels = dbscan.fit_predict(scaled_features)
                 
-                if len(set(labels)) > 1:  # Only evaluate if more than one cluster
-                    results = self.evaluate_clustering(features, labels, f'DBSCAN (eps={eps}, min_samples={min_samples})', category)
-                    if results:
-                        self.results[f'{category} - DBSCAN (eps={eps}, min_samples={min_samples})'] = results
-                        print(f"DBSCAN (eps={eps}, min_samples={min_samples}):")
-                        print(f"  Silhouette Score: {results['silhouette_score']:.4f}")
-                        print(f"  Davies-Bouldin Score: {results['davies_bouldin_score']:.4f}")
-                        print(f"  Calinski-Harabasz Score: {results['calinski_harabasz_score']:.4f}")
+                # Calculate noise ratio
+                noise_ratio = np.sum(labels == -1) / len(labels)
+                
+                # Only evaluate if we have at least 2 clusters (excluding noise)
+                unique_labels = set(labels)
+                if len(unique_labels) > 2:  # More than just noise and one cluster
+                    # Filter out noise points for evaluation
+                    non_noise_mask = labels != -1
+                    if np.sum(non_noise_mask) > 1:  # Ensure we have enough non-noise points
+                        results = self.evaluate_clustering(scaled_features[non_noise_mask], labels[non_noise_mask], 
+                                                         f'DBSCAN (eps={eps:.3f}, min_samples={min_samples})', category)
+                        if results:
+                            # Calculate a combined score (higher is better)
+                            score = (results['silhouette_score'] + 
+                                   (1 - results['davies_bouldin_score']) + 
+                                   (results['calinski_harabasz_score'] / 10000)) / 3
+                            
+                            if score > best_score:
+                                best_score = score
+                                best_params = (eps, min_samples)
+                                best_labels = labels
+                            
+                            # Add noise ratio to results
+                            results['noise_ratio'] = noise_ratio
+                            self.results[f'{category} - DBSCAN (eps={eps:.3f}, min_samples={min_samples})'] = results
+                            print(f"DBSCAN (eps={eps:.3f}, min_samples={min_samples}):")
+                            print(f"  Silhouette Score: {results['silhouette_score']:.4f}")
+                            print(f"  Davies-Bouldin Score: {results['davies_bouldin_score']:.4f}")
+                            print(f"  Calinski-Harabasz Score: {results['calinski_harabasz_score']:.4f}")
+                            print(f"  Noise Ratio: {noise_ratio:.2%}")
+                            print(f"  Number of Clusters: {len(unique_labels) - 1}")  # Exclude noise cluster
+                else:
+                    print(f"DBSCAN (eps={eps:.3f}, min_samples={min_samples}) produced too few clusters or only noise points")
+        
+        # Visualize the best clustering result if found
+        if best_params is not None:
+            eps, min_samples = best_params
+            print(f"\nBest DBSCAN parameters for {category}:")
+            print(f"eps={eps:.3f}, min_samples={min_samples}")
+            print(f"Number of clusters: {len(set(best_labels)) - 1}")
+            print(f"Noise ratio: {np.sum(best_labels == -1) / len(best_labels):.2%}")
+            
+            # Plot the clusters (using first two principal components for visualization)
+            from sklearn.decomposition import PCA
+            pca = PCA(n_components=2)
+            reduced_features = pca.fit_transform(scaled_features)
+            
+            plt.figure(figsize=(10, 6))
+            scatter = plt.scatter(reduced_features[:, 0], reduced_features[:, 1], 
+                                c=best_labels, cmap='viridis', alpha=0.6)
+            plt.title(f'Best DBSCAN Clustering for {category}\n(eps={eps:.3f}, min_samples={min_samples})')
+            plt.xlabel('First Principal Component')
+            plt.ylabel('Second Principal Component')
+            plt.colorbar(scatter, label='Cluster')
+            plt.grid(True)
+            plt.show()
     
     def run_hierarchical_analysis(self, features, category, n_clusters_range=range(2, 8), linkage_methods=['ward', 'complete', 'average']):
         """Run Hierarchical clustering with different parameters"""
